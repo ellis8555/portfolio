@@ -1,2 +1,3 @@
 import { aboutMeElement } from "./about-me/about-me";
-export { aboutMeElement };
+import { underConstructionElement } from "./construction/under-construction";
+export { aboutMeElement, underConstructionElement };
