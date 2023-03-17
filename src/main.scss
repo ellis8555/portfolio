@@ -1,3 +1,102 @@
 @import '~bootstrap/scss/bootstrap';
 @import './styles/colors/colors';
 @import './styles/body/body';
+
+/* about me */
+.contact-icon {
+    position:absolute;
+    transform: translateX(-2rem)
+}
+
+.email-icon {
+    height: 1.5rem;
+    width: 2rem;
+    color: white;
+    display: inline-block
+}
+
+#linkedin-link::before {
+    position: absolute;
+   content: url(/src/images/about-me/linkedin-logo.png);
+    transform: scale(1.25) translate(-1.5rem, .25rem )
+}
+
+.web-dev-hobbies-bg{
+    background-color: var($bg-main-color-quarter-opacity);
+}
+
+.icons img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+h4, [class~='display-5']{
+    color: white;
+}
+
+/* cards */
+
+.card {
+    margin:auto;
+}
+
+.card-opacity{
+    background-color: $bg-main-color-quarter-opacity;
+    color: white
+}
+
+.card-ul-opacity li{
+    background-color: $bg-main-color-zero-opacity;
+    color: white 
+}
+
+.card-footer-opacity{
+    background-color: $bg-main-color;
+    color: white
+}
+
+/* under construction */
+
+.under-construction{
+    background-color: rgba(255, 193, 7, 0.25);
+    color: white;
+}
+
+.under-construction-text-color {
+    color: $bg-underconstruction-text-color
+}
+
+.construction-ul-opacity {
+    background-color: $bg-main-color-half-opacity;
+}
+
+/* navbar */
+
+#navbar {
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-menu {
+    background-color: $bg-main-color-quarter-opacity;
+    transition: background-color .75s ease;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color:white;
+}
+
+nav li:hover {
+    background-color: $black-opacity;
+}
+
+#auth-small-screen {
+    display: initial;
+    background-color: $bg-main-color-quarter-opacity;
+    transition: display 1s ease, background-color 1s ease;
+}
