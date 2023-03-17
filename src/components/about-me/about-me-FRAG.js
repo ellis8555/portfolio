@@ -1,4 +1,4 @@
-import hawaiiPicture from "../../images/about-me/L&C-Hawaii.jpg";
+import LCHawaii from "../../images/about-me/L&C-Hawaii.jpg";
 
 const aboutMeFRAG = `
 <div class="row text-center rounded">
@@ -7,7 +7,7 @@ const aboutMeFRAG = `
       <div class="row g-0 h-100">
         <div class="col-lg-5">
           <img
-            src="${hawaiiPicture}"
+            src="${LCHawaii}"
             class="img-fluid rounded-start h-100 w-100"
             alt="..."
           />

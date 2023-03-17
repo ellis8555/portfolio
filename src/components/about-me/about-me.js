@@ -1,5 +1,5 @@
-import { aboutMeFRAG } from "./about-me-FRAG";
 import { createRouteContainer } from "../../utilities/routes/createDivRoutes";
+import { aboutMeFRAG } from "./about-me-FRAG";
 
 const aboutMe = `
 <div class="container pt-5 px-5">
