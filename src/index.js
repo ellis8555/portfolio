@@ -9,17 +9,24 @@ import {
   todosElement,
   hobbiesElement,
 } from "./components/elements";
+import { appendElements } from "./utilities/routes/elementsAppend";
+
+// place components into array
+const components = [
+  navbarElement,
+  aboutMeElement,
+  underConstructionElement,
+  projectsElement,
+  certificatesElement,
+  todosElement,
+  hobbiesElement,
+];
 
 // the root div in index.html for content to be injected
 const root = document.getElementById("root");
 
-root.append(navbarElement);
-root.append(underConstructionElement);
-root.append(aboutMeElement);
-root.append(projectsElement);
-root.append(certificatesElement);
-root.append(todosElement);
-root.append(hobbiesElement);
+// method loops through components array and appends each item to root div
+appendElements(root, ...components);
 
 window.addEventListener("scroll", () => {
   navbarScrollOpacityChange();
