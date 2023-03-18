@@ -2,7 +2,7 @@ import { createRouteContainer } from "../../utilities/routes/createDivRoutes";
 
 const navbar = `
 <div
-  class="container navbar-menu text-light rounded mt-3 mb-5 ps-4 pe-4 d-flex flex-lg-row justify-content-center justify-content-lg-between"
+  class="container navbar-menu text-light rounded mb-5 ps-4 pe-4 d-flex flex-lg-row justify-content-center justify-content-lg-between"
 >
   <nav class="navbar navbar-expand-md w-75 justify-content-center">
     <button
