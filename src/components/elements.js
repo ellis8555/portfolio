@@ -5,6 +5,17 @@ import { projectsElement } from "./projects/projects";
 import { certificatesElement } from "./certificates/certificates";
 import { todosElement } from "./Todos/todos";
 import { hobbiesElement } from "./hobbies/hobbies";
+// place components into array
+const components = [
+  navbarElement,
+  aboutMeElement,
+  underConstructionElement,
+  projectsElement,
+  certificatesElement,
+  todosElement,
+  hobbiesElement,
+];
+// export each component as well as the array
 export {
   aboutMeElement,
   underConstructionElement,
@@ -13,4 +24,5 @@ export {
   certificatesElement,
   todosElement,
   hobbiesElement,
+  components,
 };
