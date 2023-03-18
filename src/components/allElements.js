@@ -8,8 +8,8 @@ import { hobbiesElement } from "./hobbies/hobbies";
 // place components into array
 const components = [
   navbarElement,
-  aboutMeElement,
   underConstructionElement,
+  aboutMeElement,
   projectsElement,
   certificatesElement,
   todosElement,

@@ -1,4 +1,4 @@
-import { createRouteContainer } from "../../utilities/routes/createDivRoutes";
+import { createRouteContainer } from "../../utilities/allEffects";
 import wywmJavaFundatmentals from "../../images/WYWM-certificates/WYWM-JavaFundamentals.jpg";
 import wywmPythonFundatmentals from "../../images/WYWM-certificates/WYWM-Python-Programming-Fundamentals.jpg";
 import wywmIntermediateDev from "../../images/WYWM-certificates/WYWM-IntermediateWebDev.jpg";
