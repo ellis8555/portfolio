@@ -1,4 +1,4 @@
-import { createRouteContainer } from "../../utilities/routes/createDivRoutes";
+import { createRouteContainer } from "../../utilities/allEffects";
 import { underConstructionFRAG } from "./under-construction-FRAG";
 
 const underConstruction = `
