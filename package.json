@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "serve": "npx webpack serve"
+    "build": "webpack --config webpack.build.js",
+    "serve": "npx webpack serve --config webpack.dev.js --open",
+    "dev": "webpack --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +24,8 @@
     "svg-inline-loader": "^0.8.2",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.12.0"
+    "webpack-dev-server": "^4.12.0",
+    "webpack-merge": "^5.8.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
