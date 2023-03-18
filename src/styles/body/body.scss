@@ -1,7 +1,12 @@
 body {
-    background-image:  linear-gradient(rgba(0,0,0, .75), rgba(0,0,0, .75)), url('./images/backgrounds/port-bg.jpg');
+    background-image: url('./images/backgrounds/port-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+#bg {
+    background-color: rgba(0,0,0, .75);
+    padding-top: 1rem;
 }
