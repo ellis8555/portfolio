@@ -52,6 +52,8 @@ const eachWYWMCertificateImage = [
   },
 ];
 
+const WYWMCertificateLength = eachWYWMCertificateImage.length;
+
 export {
   wywmPythonFundatmentals,
   wywmIntermediateDev,
@@ -63,4 +65,5 @@ export {
   wywmQaTesting,
   wywmDigitalProjectManagement,
   eachWYWMCertificateImage,
+  WYWMCertificateLength,
 };
