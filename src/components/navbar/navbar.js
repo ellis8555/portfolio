@@ -1,7 +1,4 @@
-import {
-  createRouteContainer,
-  routeChange,
-} from "../../utilities/allUtilities";
+import { createRouteContainer } from "../../utilities/allUtilities";
 
 const navbar = `
 <div
