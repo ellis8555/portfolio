@@ -1,13 +1,24 @@
 import "./main.scss";
 import * as bootstrap from "bootstrap";
-import { components } from "./components/allElements";
-import { setNavBarScrollFade, appendElements } from "./utilities/allEffects";
+import { navbarElement, homeElement } from "./components/allElements";
+import {
+  setNavBarScrollFade,
+  pageStartup,
+  routeChange,
+} from "./utilities/allUtilities";
 
-// the root div in index.html for content to be injected
-const root = document.getElementById("root");
+window.addEventListener("DOMContentLoaded", () => {
+  // the root div in index.html for content to be injected
+  const root = document.getElementById("root");
 
-// method loops through components array and appends each item to root div
-appendElements(root, ...components);
-// apply listeners
+  // apply listeners
 
-setNavBarScrollFade();
+  // intial page start up to load the navbar and home elements
+  pageStartup(root, navbarElement, homeElement);
+
+  // apply click listeners on the nav bar list items
+  routeChange();
+
+  // sets the scroll effect on the navbar
+  setNavBarScrollFade();
+});

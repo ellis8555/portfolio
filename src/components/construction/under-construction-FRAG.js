@@ -11,8 +11,8 @@ import jwtIcon from "../../images/hobbies/web-dev/jwt.jpg";
 const underConstructionFRAG = `
 <div class="row pb-3">
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
-    <p class="under-construction-text-color text-decoration-underline fs-5">
-      This version
+    <p>
+      <a href="https://github.com/ellis8555/CertificatesOnGit" class="under-construction-text-color text-decoration-underline fs-5">This version</a>
     </p>
     <div class="row d-flex">
       <p class="text-center">Front-end</p>
@@ -34,7 +34,7 @@ const underConstructionFRAG = `
     </div>
   </div>
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
-    <p class="under-construction-text-color text-decoration-underline fs-5">
+    <p class="under-construction-text-color fs-5">
       Upcoming version
     </p>
 
@@ -53,7 +53,7 @@ const underConstructionFRAG = `
   </div>
 
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
-    <p class="under-construction-text-color text-decoration-underline fs-5">
+    <p class="under-construction-text-color fs-5">
       Both versions
     </p>
 

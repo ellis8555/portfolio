@@ -1,4 +1,4 @@
-import { createRouteContainer } from "../../utilities/allEffects";
+import { createRouteContainer } from "../../utilities/allUtilities";
 import { certificatesFRAG } from "./certificatesFRAG";
 import { carouselButtons } from "./certificates-methods/carousel-button-injector";
 
