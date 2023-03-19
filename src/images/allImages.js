@@ -1,4 +1,16 @@
-import { eachWYWMCertificateImage } from "./WYWM-certificates/allWYWMImages";
+// WYWM certificate images
 
-const WYWMCertificateLength = eachWYWMCertificateImage.length;
+import {
+  eachWYWMCertificateImage,
+  WYWMCertificateLength,
+} from "./WYWM-certificates/allWYWMImages";
+
 export { eachWYWMCertificateImage, WYWMCertificateLength };
+
+// web dev hobby images
+import {
+  eachWebdevImage,
+  eachWebdevImageLength,
+} from "./hobbies/web-dev/allWebdevImages";
+
+export { eachWebdevImage, eachWebdevImageLength };

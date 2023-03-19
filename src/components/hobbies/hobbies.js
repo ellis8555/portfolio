@@ -1,6 +1,6 @@
 import { createRouteContainer } from "../../utilities/allEffects";
 import { hobbiesGamesFRAG } from "./hobbie-FRAGS/games-FRAG";
-import { hobbiesWebDevFRAG } from "./hobbie-FRAGS/webDev-FRAG";
+import { hobbiesWebDevFRAG } from "./hobbie-FRAGS/webDev-FRAG/webDev-FRAG";
 
 const hobbies = `
 <div class="container pt-3 pb-3 mt-5" id="enjoymentsContainer">

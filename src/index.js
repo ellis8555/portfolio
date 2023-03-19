@@ -8,7 +8,6 @@ const root = document.getElementById("root");
 
 // method loops through components array and appends each item to root div
 appendElements(root, ...components);
-
 // apply listeners
 
 setNavBarScrollFade();

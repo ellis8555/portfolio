@@ -5,7 +5,8 @@ import { projectsElement } from "./projects/projects";
 import { certificatesElement } from "./certificates/certificates";
 import { todosElement } from "./Todos/todos";
 import { hobbiesElement } from "./hobbies/hobbies";
-// place components into array
+// place components into array for when page initially starts up
+// index.js imports this
 const components = [
   navbarElement,
   underConstructionElement,
