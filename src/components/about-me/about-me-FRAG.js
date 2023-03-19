@@ -1,4 +1,5 @@
 import LCHawaii from "../../images/about-me/L&C-Hawaii.jpg";
+import { aboutMeText } from "./about-me-text";
 
 const aboutMeFRAG = `
 <div class="row text-center rounded">
@@ -16,36 +17,8 @@ const aboutMeFRAG = `
           <div class="card-body pt-5">
             <h3 class="card-title">Lonnie Smith</h3>
             <hr />
-            <!-- <ul class="list-group list-group-flush rounded card-ul-opacity"> -->
             <div class="row">
-              <ul class="list-group card-ul-opacity col-lg-8 mx-auto">
-                <li class="list-group-item border-0">
-                  <p class="text-start">
-                    I am currently working towards becoming a full stack web
-                    developer.
-                  </p>
-                </li>
-                <li class="list-group-item border-0">
-                  <p class="text-start">
-                    I have a strong foundation in HTML, CSS, and JavaScript
-                  </p>
-                </li>
-                <li class="list-group-item border-0">
-                  <p class="text-start">
-                    Good solid base knowledge of server side technologies
-                  </p>
-                </li>
-                <li class="list-group-item border-0">
-                  <p class="text-start">
-                    Good solid base knowledge of front side technologies
-                  </p>
-                </li>
-                <li class="list-group-item border-0">
-                  <p class="text-start">
-                    Very adaptable and vesatile with change
-                  </p>
-                </li>
-              </ul>
+              <ul id="about-me-list" class="list-group card-ul-opacity col-lg-8 mx-auto">${aboutMeText}</ul>
             </div>
             <hr />
             <div class="card-body mt-3">
@@ -90,5 +63,4 @@ const aboutMeFRAG = `
     </div>
   </div>
 </div>`;
-
 export { aboutMeFRAG };
