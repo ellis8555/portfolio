@@ -37,6 +37,11 @@ const navbar = `
     <div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarNavAltMarkup">
       <ul class="navbar-nav">
         <li class="p-2 nav-item rounded">
+          <a href="#home" class="text-light text-decoration-none nav-link"
+            >Home</a
+          >
+        </li>
+        <li class="p-2 nav-item rounded">
           <a href="#about-me" class="text-light text-decoration-none nav-link"
             >About</a
           >
