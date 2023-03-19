@@ -1,7 +1,5 @@
-import {
-  createRouteContainer,
-  routeChange,
-} from "../../utilities/allUtilities";
+import { createRouteContainer } from "../../utilities/allUtilities";
+import { navbarLinkItems } from "./navbar-methods/links-injector";
 
 const navbar = `
 <div
@@ -39,38 +37,7 @@ const navbar = `
 
     <div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarNavAltMarkup">
       <ul class="navbar-nav">
-        <li class="p-2 nav-item rounded" data-name="homeElement">
-          <a href="#home" class="text-light text-decoration-none nav-link"
-            >Home</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded" data-name="projectsElement">
-          <a href="#projects" class="text-light text-decoration-none nav-link"
-            >Projects</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded" data-name="certificatesElement">
-          <a
-            href="#certificateSlides"
-            class="text-light text-decoration-none nav-link"
-            >Certificates</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded" data-name="todosElement">
-          <a href="#todos" class="text-light text-decoration-none nav-link"
-            >Todos</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded" data-name="hobbiesElement">
-          <a href="#hobbies" class="text-light text-decoration-none nav-link"
-            >Hobbies</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded" data-name="aboutMeElement">
-        <a href="#about-me" class="text-light text-decoration-none nav-link"
-          >About</a
-        >
-      </li>
+  ${navbarLinkItems}
       </ul>
     </div>
   </nav>
