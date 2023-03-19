@@ -11,15 +11,15 @@ import { homeElement } from "./Home/home";
 const components = [
   navbarElement,
   homeElement,
-  // underConstructionElement,
   aboutMeElement,
   projectsElement,
   certificatesElement,
   todosElement,
   hobbiesElement,
 ];
-// export each component as well as the array
+// export each component
 export {
+  homeElement,
   aboutMeElement,
   underConstructionElement,
   navbarElement,

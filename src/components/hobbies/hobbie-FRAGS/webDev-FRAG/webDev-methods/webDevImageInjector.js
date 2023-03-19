@@ -8,7 +8,6 @@ const webDevImageInjector = (...images) => {
     imgElement.alt = img.imageAlt;
     containerDiv.append(imgElement);
   });
-  console.log(containerDiv);
   return containerDiv;
 };
 

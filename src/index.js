@@ -15,6 +15,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // intial page start up to load the navbar and home elements
   pageStartup(root, navbarElement, homeElement);
+
+  // apply click listeners on the nav bar list items
   routeChange();
 
   // sets the scroll effect on the navbar
