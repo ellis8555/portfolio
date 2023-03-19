@@ -1,0 +1,28 @@
+#navbar {
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-menu {
+    background-color: $bg-main-color-quarter-opacity;
+    transition: background-color .75s ease;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color:white;
+}
+
+nav li:hover {
+    background-color: $black-opacity;
+}
+
+#auth-small-screen {
+    display: initial;
+    background-color: $bg-main-color-quarter-opacity;
+    transition: display 1s ease, background-color 1s ease;
+}
