@@ -1,7 +1,7 @@
 import "./main.scss";
 import * as bootstrap from "bootstrap";
 import { components } from "./components/allElements";
-import { setNavBarScrollFade, appendElements } from "./utilities/allEffects";
+import { setNavBarScrollFade, appendElements } from "./utilities/allUtilities";
 
 // the root div in index.html for content to be injected
 const root = document.getElementById("root");

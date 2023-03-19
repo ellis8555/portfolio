@@ -1,4 +1,4 @@
-import { createRouteContainer } from "../../utilities/allEffects";
+import { createRouteContainer } from "../../utilities/allUtilities";
 import { aboutMeFRAG } from "./about-me-FRAG";
 
 const aboutMe = `

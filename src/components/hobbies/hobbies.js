@@ -1,4 +1,4 @@
-import { createRouteContainer } from "../../utilities/allEffects";
+import { createRouteContainer } from "../../utilities/allUtilities";
 import { hobbiesGamesFRAG } from "./hobbie-FRAGS/games-FRAG";
 import { hobbiesWebDevFRAG } from "./hobbie-FRAGS/webDev-FRAG/webDev-FRAG";
 

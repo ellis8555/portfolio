@@ -1,4 +1,4 @@
-import { createRouteContainer } from "../../utilities/allEffects";
+import { createRouteContainer } from "../../utilities/allUtilities";
 import { personalFRAG } from "./project-FRAGS/personal-FRAG";
 import { wywmProjectsFrag } from "./project-FRAGS/wywm-FRAG";
 
