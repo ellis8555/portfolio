@@ -1,5 +1,7 @@
 import { certificatesImageInjector } from "./certificates-methods/certificates-image-injector";
-import { eachImage } from "../../images/allImages";
+import { eachWYWMCertificateImage } from "../../images/allImages";
 
-const certificatesFRAG = certificatesImageInjector(...eachImage).innerHTML;
+const certificatesFRAG = certificatesImageInjector(
+  ...eachWYWMCertificateImage
+).innerHTML;
 export { certificatesFRAG };
