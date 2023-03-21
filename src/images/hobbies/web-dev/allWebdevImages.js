@@ -20,78 +20,97 @@ import webpackIcon from "./webpack.png";
 
 const eachWebdevImage = [
   {
+    // 0
     imageSrc: bootstrapIcon,
     imageAlt: "bootstrap",
   },
   {
+    // 1
     imageSrc: css3Icon,
     imageAlt: "css",
   },
   {
+    // 2
     imageSrc: expressIcon,
     imageAlt: "express",
   },
   {
+    // 3
     imageSrc: firebaseIcon,
     imageAlt: "firebase",
   },
   {
+    // 4
     imageSrc: html5Icon,
     imageAlt: "html",
   },
   {
+    // 5
     imageSrc: javaIcon,
     imageAlt: "java",
   },
   {
+    // 6
     imageSrc: javascriptIcon,
     imageAlt: "javascript",
   },
   {
+    // 7
     imageSrc: jwtIcon,
     imageAlt: "jsonwebtoken",
   },
   {
+    // 8
     imageSrc: mongoDBIcon,
     imageAlt: "mongoDB",
   },
   {
+    // 9
     imageSrc: nodeJsIcon,
     imageAlt: "nodeJS",
   },
   {
+    // 10
     imageSrc: mySqlIcon,
     imageAlt: "mySQL",
   },
   {
+    // 11
     imageSrc: phpIcon,
     imageAlt: "php",
   },
   {
+    // 12
     imageSrc: postcssIcon,
     imageAlt: "postcss",
   },
   {
+    // 13
     imageSrc: pythonIcon,
     imageAlt: "python",
   },
   {
+    // 14
     imageSrc: reactIcon,
     imageAlt: "react",
   },
   {
+    // 15
     imageSrc: sassIcon,
     imageAlt: "sass",
   },
   {
+    // 16
     imageSrc: tailwindIcon,
     imageAlt: "tailwind",
   },
   {
+    // 17
     imageSrc: typescriptIcon,
     imageAlt: "typescript",
   },
   {
+    // 18
     imageSrc: webpackIcon,
     imageAlt: "webpack",
   },
