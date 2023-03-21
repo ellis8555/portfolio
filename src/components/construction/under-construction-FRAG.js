@@ -1,12 +1,4 @@
-import webpackIcon from "../../images/hobbies/web-dev/webpack.png";
-import bootstrapIcon from "../../images/hobbies/web-dev/bootstrap.png";
-import sassIcon from "../../images/hobbies/web-dev/sass.png";
-import reactIcon from "../../images/hobbies/web-dev/react.png";
-import postcssIcon from "../../images/hobbies/web-dev/postcss.png";
-import tailwindIcon from "../../images/hobbies/web-dev/tailwind.png";
-import expressIcon from "../../images/hobbies/web-dev/express.png";
-import mongoDBIcon from "../../images/hobbies/web-dev/mongoDB.png";
-import jwtIcon from "../../images/hobbies/web-dev/jwt.jpg";
+import { eachWebdevImage } from "../../images/allImages";
 
 const underConstructionFRAG = `
 <div class="row pb-3">
@@ -17,19 +9,16 @@ const underConstructionFRAG = `
     <div class="row d-flex">
       <p class="text-center">Front-end</p>
       <div class="col align-self-center">
-        <img src="${webpackIcon}" alt="webpack" class="rounded" />
+        <img src="${eachWebdevImage[18].imageSrc}" alt="${eachWebdevImage[18].imageAlt}" class="rounded" />
       </div>
       <div class="col">
         <img
-          src="${bootstrapIcon}"
-          alt="webpack"
-          height="35px"
-          width="35px"
-          style="object-fit: cover; margin: auto"
+          src="${eachWebdevImage[0].imageSrc}"
+          alt="${eachWebdevImage[0].imageAlt}"
         />
       </div>
       <div class="col align-self-center">
-        <img src="${sassIcon}" alt="sass" />
+        <img src="${eachWebdevImage[15].imageSrc}" alt="${eachWebdevImage[15].imageAlt}" />
       </div>
     </div>
   </div>
@@ -41,13 +30,13 @@ const underConstructionFRAG = `
     <div class="row d-flex">
       <p class="text-center">Front-end</p>
       <div class="col align-self-center">
-        <img src="${reactIcon}" alt="react" />
+        <img src="${eachWebdevImage[14].imageSrc}" alt="${eachWebdevImage[14].imageAlt}" />
       </div>
       <div class="col">
-        <img src="${postcssIcon}" alt="postcss" />
+        <img src="${eachWebdevImage[12].imageSrc}" alt="${eachWebdevImage[12].imageAlt}" />
       </div>
       <div class="col align-self-center">
-        <img src="${tailwindIcon}" alt="tailwind" />
+        <img src="${eachWebdevImage[16].imageSrc}" alt="${eachWebdevImage[16].imageAlt}" />
       </div>
     </div>
   </div>
@@ -60,13 +49,13 @@ const underConstructionFRAG = `
     <div class="row d-flex">
       <p class="text-center">Back-end</p>
       <div class="col align-self-center">
-        <img src="${expressIcon}" alt="express" />
+        <img src="${eachWebdevImage[2].imageSrc}" alt="${eachWebdevImage[2].imageAlt}" />
       </div>
       <div class="col align-self-center">
-        <img src="${mongoDBIcon}" alt="mongoDB" />
+        <img src="${eachWebdevImage[8].imageSrc}" alt="${eachWebdevImage[8].imageAlt}" />
       </div>
       <div class="col align-self-center">
-        <img src="${jwtIcon}" alt="jwt" class="rounded" />
+        <img src="${eachWebdevImage[7].imageSrc}" alt="${eachWebdevImage[7].imageAlt}" class="rounded" />
       </div>
     </div>
   </div>
