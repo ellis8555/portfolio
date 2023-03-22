@@ -151,9 +151,6 @@ const wywmProjectsFrag = `
         <div class="col-md-8 align-self-center">
           <div class="card-body">
             <h5 class="card-title mb-2">Simple site fetch API</h5>
-            <h6 class="card-subtitle text-danger text mb-2">
-              Not mobile friendly
-            </h6>
             <p class="card-text mb-2">
               This project shows two seperate fetches that both fetch some
               random information.
