@@ -28,15 +28,15 @@ const contactFRAG = `<p class="display-5 text-center">Contact Me</p>
 <h4 class="text-center">-- Leave a comment or feedback  --</h4>
 
 <div class="rounded d-flex justify-content-center mt-5">
-  <form class="card-opacity rounded px-5">
+  <form class="card-opacity rounded px-5" name="contactForm">
     <div class="my-3">
-    <label for="nameInput" class="form-label text-info">Name:</label>
-    <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" />
+    <label for="name" class="form-label text-info">Name:</label>
+    <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" />
     <div id="nameHelp" class="form-text">Name needs to be between 2-20 characters in length</div>
     </div>
   <div class="mb-3">
-  <label for="commentsTextarea" class="form-label text-info">Comment:</label>
-  <textarea class="form-control text-secondary" id="commentsTextarea" placeholder="Drop me a comment or leave some feedback" rows="10"></textarea>
+  <label for="comment" class="form-label text-info">Comment:</label>
+  <textarea class="form-control text-secondary" id="comment" name="comment" placeholder="Drop me a comment or leave some feedback" rows="10"></textarea>
   </div>
   <button type="submit" class="btn btn-primary mb-3">Submit</button>
   </form>
