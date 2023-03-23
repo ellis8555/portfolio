@@ -9,7 +9,7 @@ const createLinkItems = (...linkItems) => {
     li.classList.add("rounded");
     li.setAttribute("data-name", `${item.elementName}`);
     const a = document.createElement("a");
-    a.href = "#";
+    a.href = `#${item.linkName}`;
     a.classList.add("text-light");
     a.classList.add("text-decoration-none");
     a.classList.add("nav-link");
