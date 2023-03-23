@@ -1,4 +1,4 @@
-import { appendSingleElement } from "../allUtilities";
+import { appendSingleElement, submitContactMe } from "../allUtilities";
 import {
   homeElement,
   aboutMeElement,
@@ -35,6 +35,8 @@ const applyCorrectElement = (elementName) => {
       break;
     case "contactElement":
       appendSingleElement(root, contactElement);
+      // add listener for form submission
+      submitContactMe();
       break;
     default:
       appendSingleElement(root, homeElement);
