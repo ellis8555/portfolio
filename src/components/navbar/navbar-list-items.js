@@ -16,10 +16,6 @@ const listItems = [
     linkName: "Todos",
   },
   {
-    elementName: "hobbiesElement",
-    linkName: "Hobbies",
-  },
-  {
     elementName: "aboutMeElement",
     linkName: "About",
   },
