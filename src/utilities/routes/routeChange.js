@@ -5,6 +5,7 @@ import {
   projectsElement,
   certificatesElement,
   todosElement,
+  contactElement,
 } from "../../components/allElements";
 
 const routeChange = () => {
@@ -31,6 +32,9 @@ const applyCorrectElement = (elementName) => {
       break;
     case "todosElement":
       appendSingleElement(root, todosElement);
+      break;
+    case "contactElement":
+      appendSingleElement(root, contactElement);
       break;
     default:
       appendSingleElement(root, homeElement);

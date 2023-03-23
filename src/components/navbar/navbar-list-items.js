@@ -19,6 +19,10 @@ const listItems = [
     elementName: "aboutMeElement",
     linkName: "About",
   },
+  {
+    elementName: "contactElement",
+    linkName: "Contact",
+  },
 ];
 
 export { listItems };
