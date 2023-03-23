@@ -5,7 +5,6 @@ import {
   projectsElement,
   certificatesElement,
   todosElement,
-  hobbiesElement,
 } from "../../components/allElements";
 
 const routeChange = () => {
