@@ -6,17 +6,9 @@ import { certificatesElement } from "./certificates/certificates";
 import { todosElement } from "./Todos/todos";
 import { hobbiesElement } from "./hobbies/hobbies";
 import { homeElement } from "./Home/home";
+import { contactMeElement } from "./contact-form/contact-me";
 // place components into array for when page initially starts up
-// index.js imports this
-const components = [
-  navbarElement,
-  homeElement,
-  aboutMeElement,
-  projectsElement,
-  certificatesElement,
-  todosElement,
-  hobbiesElement,
-];
+
 // export each component
 export {
   homeElement,
@@ -27,5 +19,5 @@ export {
   certificatesElement,
   todosElement,
   hobbiesElement,
-  components,
+  contactMeElement,
 };
