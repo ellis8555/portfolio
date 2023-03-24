@@ -42,8 +42,8 @@ const underConstructionFRAG = `
   </div>
 
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
-    <p class="under-construction-text-color fs-5">
-      Both versions
+    <p>
+    <a href="https://github.com/ellis8555/portfolio-backend" class="under-construction-text-color text-decoration-underline fs-5">Both versions</a>
     </p>
 
     <div class="row d-flex">
