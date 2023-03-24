@@ -1,8 +1,8 @@
-import { underConstructionElement } from "../../construction/under-construction";
-const underConstructionElementContents = underConstructionElement.innerHTML;
+import { underConstructionElement } from "../../allElements";
 
-const homeFRAG = `  <div class="py-5">
-${underConstructionElementContents}
+const homeFRAG = `
+<div class="py-5">
+${underConstructionElement.outerHTML}
 <div class="border border-success rounded mx-5 mt-5 px-5 py-3">
 <p class="text-justify">
   Currently working on creating a unique portfolio project
