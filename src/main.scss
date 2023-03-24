@@ -7,10 +7,17 @@
 @import './styles/hobbies/webdevHobbies.scss';
 @import './styles/certificates/certificates.scss';
 @import './styles/under-construction/underConstruction.scss';
+@import './styles/utility/utilities.scss';
 
 h4, [class~='display-5']{
     color: white;
 }
+
+/* success faded bg */
+.success-opacity {
+    background-color: $bg-success-opacity;
+}
+
 
 /* cards */
 

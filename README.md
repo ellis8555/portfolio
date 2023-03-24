@@ -33,8 +33,11 @@ place any of these methods into a folder that appends '-methods' to that folder'
 
 ---
 
-# components
+# navbar
 
 ---
 
-to add another link add an object into the array that contains the components name and also the link name that will be displayed
+to add a link requires two steps
+
+1. add link details in ./src/components/navbar/navbar-list-items.js
+2. import the element that's connected to the link and add that element to the switch statement in ./src/utilities/routes/routeChange.js
