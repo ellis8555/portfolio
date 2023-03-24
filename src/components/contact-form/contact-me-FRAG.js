@@ -36,7 +36,7 @@ const contactFRAG = `<p class="display-5 text-center">Contact Me</p>
     </div>
   <div class="mb-3">
   <label for="comment" class="form-label text-info">Comment:</label>
-  <textarea class="form-control text-secondary" id="comment" name="comment" placeholder="Drop me a comment or leave some feedback" rows="10"></textarea>
+  <textarea class="form-control" id="comment" name="comment" placeholder="Drop me a comment or leave some feedback" rows="10"></textarea>
   </div>
   <button type="submit" class="btn btn-primary mb-3">Submit</button>
   </form>
