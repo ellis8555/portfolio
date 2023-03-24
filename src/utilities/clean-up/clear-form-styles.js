@@ -1,6 +1,9 @@
 const clearContactFormStyles = () => {
-  const nameInput = document.getElementById("name");
-  const commentInput = document.getElementById("comment");
+  const form = document.forms.contactForm;
+  form.reset();
+
+  const nameInput = form.elements.name;
+  const commentInput = form.elements.comment;
   const nameErrorDiv = document.getElementById("name-invalid");
   const commentErrorDiv = document.getElementById("comment-invalid");
 
