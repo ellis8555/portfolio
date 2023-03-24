@@ -3,7 +3,7 @@ import { underConstructionFRAG } from "./under-construction-FRAG";
 
 const underConstruction = `
 <div class="mx-3 mx-md-5">
-  <div class="container under-construction rounded text-center px-3 py-3 px-md-5">
+  <div class="container under-construction rounded text-center px-3 py-3 px-md-3">
     <p class="display-6 under-construction-text-color">
       Site is under construction
     </p>
