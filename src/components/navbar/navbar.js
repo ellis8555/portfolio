@@ -49,7 +49,7 @@ const navbar = `
     <span id="auth-text-large-screen" class="text-success"
       >**Authentication** | **Authorization**</span
     >
-    <span class="text-warning">-- coming soon --</span>
+    <span class="text-warning">--coming soon--</span>
   </div>
 </div>
 
@@ -58,7 +58,7 @@ const navbar = `
   class="container rounded my-5 d-flex flex-column d-lg-none text-center py-1"
 >
   <div class="p-2 text-success">**Authentication** | **Authorization**</div>
-  <div class="text-warning">-- coming soon --</div>
+  <div class="text-warning">--coming soon--</div>
 </div>`;
 
 const navbarElement = createRouteContainer(navbar, "navbar");
