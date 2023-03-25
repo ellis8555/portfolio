@@ -1,7 +1,5 @@
 const navbarScrollOpacityChange = () => {
   let scrollY = window.pageYOffset;
-  const smallAuthClassList =
-    "container rounded my-5 d-flex flex-column d-lg-none card-opacity text-center py-1";
   const getNavbar = document.querySelector(".navbar-menu");
   const getAuthMessageLargeText = document.querySelector(
     "#auth-text-large-screen"
@@ -11,13 +9,13 @@ const navbarScrollOpacityChange = () => {
     getNavbar.style.backgroundColor = "rgba(50, 131, 210, 0.93)";
     getAuthMessageLargeText.classList.remove("text-success");
     getAuthMessageLargeText.classList.add("text-light");
-    getAuthMessageSmall.className = "a";
-    getAuthMessageSmall.style.display = "none";
-  } else if (scrollY === 0) {
+    getAuthMessageSmall.style.opacity = 0;
+  } else if (scrollY < 50) {
     getNavbar.style.backgroundColor = "rgba(50, 131, 210, .25)";
     getAuthMessageLargeText.classList.remove("text-light");
     getAuthMessageLargeText.classList.add("text-success");
-    getAuthMessageSmall.className = smallAuthClassList;
+
+    getAuthMessageSmall.style.opacity = 1;
   }
 };
 
