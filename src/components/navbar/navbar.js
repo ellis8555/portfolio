@@ -3,7 +3,7 @@ import { navbarLinkItems } from "./navbar-methods/links-injector";
 
 const navbar = `
 <div
-  class="container navbar-menu text-light rounded mb-5 ps-4 pe-4 d-flex flex-lg-row justify-content-center justify-content-lg-between"
+  class="navbar-menu text-light rounded mx-md-5 mb-5 ps-4 pe-4 d-flex flex-lg-row justify-content-center justify-content-lg-between"
 >
   <nav class="navbar navbar-expand-md w-75 justify-content-center">
     <button
@@ -49,16 +49,16 @@ const navbar = `
     <span id="auth-text-large-screen" class="text-success"
       >**Authentication** | **Authorization**</span
     >
-    <span class="text-warning">--coming soon--</span>
+    <span class="text-warning">coming soon</span>
   </div>
 </div>
 
 <div
   id="auth-small-screen"
-  class="container rounded my-5 d-flex flex-column d-lg-none text-center py-1"
+  class="rounded mx-md-5 my-5 d-flex flex-column d-lg-none text-center py-1"
 >
   <div class="p-2 text-success">**Authentication** | **Authorization**</div>
-  <div class="text-warning">--coming soon--</div>
+  <div class="text-warning">coming soon</div>
 </div>`;
 
 const navbarElement = createRouteContainer(navbar, "navbar");
