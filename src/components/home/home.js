@@ -1,7 +1,7 @@
 import { createRouteContainer } from "../../utilities/allUtilities";
 import { homeFRAG } from "./home-FRAG/homeFRAG";
 
-const index = `<div class="container px-5">
+const index = `<div class="px-sm-5">
 <p class="display-5 text-center pb-5">My portfolio</p>
 <div class="rounded card-opacity">
     <div id="homeContent">${homeFRAG}</div>
