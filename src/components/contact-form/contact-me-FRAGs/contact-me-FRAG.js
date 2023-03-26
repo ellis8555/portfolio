@@ -25,14 +25,21 @@ const contactFRAG = `<p class="display-5 text-center">Contact Me</p>
     id="linkedin-link"
     >My linkedin</a>
 </div>
-<h4 class="text-center">-- Leave a comment or feedback  --</h4>
+<h4 class="text-center">Leave a comment or feedback</h4>
 
 <div class="rounded d-flex justify-content-center mt-5">
-  <form class="card-opacity rounded px-5" name="contactForm">
+  <form class="container-fluid card-opacity rounded px-sm-5" name="contactForm">
     <div class="my-3">
-    <label for="name" class="form-label text-info">Name:</label>
-    <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp"/>
+      <label for="name" class="form-label text-info">Name:</label>
+      <div class="form-group row">
+        <div class="col-lg-4">
+  <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp"/>
+        </div>
+        <div class="col-lg-8">
     <div id="nameHelp" class="form-text">Name needs to be between 2-20 characters in length</div>
+        </div>
+      </div>
+
     <div id="name-invalid" class="invalid-feedback"></div>
     </div>
   <div class="mb-3">
@@ -43,6 +50,6 @@ const contactFRAG = `<p class="display-5 text-center">Contact Me</p>
   </div>
   <button type="submit" class="btn btn-primary mb-3">Submit</button>
   </form>
-</div>;
-`;
+</div>`;
+
 export { contactFRAG };
