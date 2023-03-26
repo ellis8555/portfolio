@@ -32,10 +32,10 @@ const contactFRAG = `<p class="display-5 text-center">Contact Me</p>
     <div class="my-3">
       <label for="name" class="form-label text-info">Name:</label>
       <div class="form-group row">
-        <div class="col-lg-4">
+        <div class="col-md-4">
   <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp"/>
         </div>
-        <div class="col-lg-8">
+        <div class="col-md-8">
     <div id="nameHelp" class="form-text">Name needs to be between 2-20 characters in length</div>
         </div>
       </div>
