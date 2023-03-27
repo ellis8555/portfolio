@@ -28,6 +28,11 @@ const personalFRAG = `
                   >Hax94</a
                 ></small
               >
+              <small class="text-muted"
+                ><a href="https://github.com/ellis8555/Apple-Jack/" class="btn btn-primary"
+                  >Github</a
+                ></small
+              >
             </p>
           </div>
         </div>
