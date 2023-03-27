@@ -2,6 +2,7 @@ import { listItemInjector } from "./about-me-methods/about-me-list-injector";
 
 // array items will appear as text listed in about me
 const aboutMeItems = [
+  "I have a passion for coding!",
   "I am currently working towards becoming a full stack web developer.",
   "I have a strong foundation in HTML, CSS, and JavaScript",
   "Good solid base knowledge of front side technologies",
