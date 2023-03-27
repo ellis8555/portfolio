@@ -9,7 +9,7 @@ const contactForm = `
 <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp"/>
     </div>
     <div class="col-md-8">
-<div id="nameHelp" class="form-text">Name needs to be between 2-20 characters in length</div>
+<div id="nameHelp" class="form-text">Name needs to be between 2-30 characters in length</div>
     </div>
   </div>
 
@@ -18,10 +18,10 @@ const contactForm = `
 <div class="mb-3">
 <label for="comment" class="form-label text-info">Comment:</label>
 <textarea class="form-control" id="comment" name="comment" placeholder="Drop me a comment or leave some feedback" rows="10"></textarea>
-<div id="commentHelp" class="form-text">250 character limit</div>
+<div id="commentHelp" class="form-text">Between 8 - 250 characters</div>
 <div id="comment-invalid" class="invalid-feedback"></div>
 </div>
-<button type="submit" class="btn btn-primary mb-3">Submit</button>
+<button type="submit" name="submit" class="btn btn-primary mb-3" disabled>Submit</button>
 </form>
 `;
 
