@@ -32,7 +32,7 @@ const personalFRAG = `
                   >Github</a
                 ></small
               >   
-              <p class="mt-2">Project details on github readme</p>        
+              <p class="mt-2 card-text">Project details on github readme</p>        
           </div>
         </div>
       </div>
