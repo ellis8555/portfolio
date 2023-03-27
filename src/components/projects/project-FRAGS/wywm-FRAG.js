@@ -23,7 +23,6 @@ const wywmProjectsFrag = `
             <p class="card-text mb-2">
               Basic java demonstrating OOP, looping and file organization
             </p>
-            <p class="card-text">
               <small class="text-muted"
                 ><a
                   href="https://github.com/ellis8555/time_collision"
@@ -31,7 +30,7 @@ const wywmProjectsFrag = `
                   >Java game source code</a
                 ></small
               >
-            </p>
+            <p class="card-text mt-2">Project details on github readme</p>
           </div>
         </div>
       </div>
