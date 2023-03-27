@@ -73,7 +73,9 @@ const getContactMessage = async (e) => {
 };
 
 const submitContactMe = () => {
-  contactForm.addEventListener("submit", getContactMessage);
+  const form = document.forms.contactForm;
+  const submitButton = form.elements.submit;
+  submitButton.addEventListener("click", getContactMessage);
 };
 
 const setVisualValidationOnError = (inputID, errorID, errorMessage) => {
