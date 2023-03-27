@@ -26,7 +26,8 @@ const contactFRAG = `<p class="display-5 text-center">Contact Me</p>
     >My linkedin</a>
 </div>
 <h4 class="text-center">Leave a comment or feedback</h4>
-
+<div class="text-center mt-5" id="responseIndicator">
+</div>
 <div class="rounded d-flex justify-content-center mt-5">
   ${contactFormElement.outerHTML}
 </div>`;
