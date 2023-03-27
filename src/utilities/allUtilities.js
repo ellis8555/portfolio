@@ -13,6 +13,7 @@ import { clearContactFormStyles } from "./clean-up/clear-form-styles";
 import { userNameValidator } from "./user-input/validation/valiation-tests/contact-comment-input";
 import { userCommentValidator } from "./user-input/validation/valiation-tests/contact-name-input";
 import { contactFormValidationTest } from "./user-input/validation/methods/validate-contact-form";
+import { loadResponseSpinner } from "./user-input/validation/methods/load-response-spinner";
 export {
   createRouteContainer,
   appendAllElements,
@@ -27,4 +28,5 @@ export {
   userNameValidator,
   userCommentValidator,
   contactFormValidationTest,
+  loadResponseSpinner,
 };
