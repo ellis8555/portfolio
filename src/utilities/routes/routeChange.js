@@ -1,4 +1,5 @@
-import { appendSingleElement, submitContactMe } from "../allUtilities";
+import { appendSingleElement } from "../allUtilities";
+import { contactFormValidationTest } from "../allUtilities";
 import {
   homeElement,
   aboutMeElement,
@@ -35,8 +36,8 @@ const applyCorrectElement = (elementName) => {
       break;
     case "contactElement":
       appendSingleElement(root, contactElement);
-      // add listener for form submission
-      submitContactMe();
+      // validates user input and applies listener to submit button
+      contactFormValidationTest();
       break;
     default:
       appendSingleElement(root, homeElement);
