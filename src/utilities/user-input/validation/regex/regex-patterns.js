@@ -1,4 +1,4 @@
-const contactFormName = /^[a-zA-z]{2,20}$/;
-const contactFormComment = /^.{2,250}$/;
+const contactFormName = /^(?=[a-zA-Z ]{2,30}$)[a-zA-Z]* ?[a-zA-Z]+$/;
+const contactFormComment = /^.{8,250}$/;
 
 export { contactFormName, contactFormComment };
