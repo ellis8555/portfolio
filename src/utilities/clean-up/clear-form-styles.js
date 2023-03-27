@@ -5,7 +5,7 @@
 const clearContactFormStyles = () => {
   const form = document.forms.contactForm;
   form.reset();
-  const submitBtn = document.elements.submit;
+  const submitBtn = form.elements.submit;
   submitBtn.disabled = true;
 
   const nameInput = form.elements.name;
