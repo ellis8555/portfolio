@@ -1,8 +1,11 @@
-import { appendSingleElement } from "../allUtilities";
+import { appendSingleElement, loadResponseSpinner } from "../allUtilities";
 import { homeElement } from "../../components/allElements";
 
 const getContactMessage = async (e) => {
   e.preventDefault();
+  // get spinner div container
+  const spinnerDiv = document.getElementById("responseIndicator");
+  loadResponseSpinner(spinnerDiv);
 
   // get the contact form
   const form = document.forms.contactForm;
@@ -26,6 +29,8 @@ const getContactMessage = async (e) => {
   const result = await response.json();
 
   if (response.ok) {
+    // remove loading spinner
+    spinnerDiv.innerHTML = "";
     const responseMessage = result.message;
     const responseName = result.name;
     form.reset();
@@ -48,6 +53,8 @@ const getContactMessage = async (e) => {
           return;
       }
     } else {
+      // remove loading spinner
+      spinnerDiv.innerHTML = "";
       const errorObject = result.error;
       const fieldListErrors = Object.keys(errorObject);
       fieldListErrors.forEach((error) => {
