@@ -16,9 +16,9 @@ const getContactMessage = async (e) => {
     userMessage: form.elements.comment.value,
   };
 
-  const MONGO_URI = "https://angry-slug-peplum.cyclic.app/contact";
+  const CONTACT_ENDPOINT = "https://angry-slug-peplum.cyclic.app/contact";
 
-  const response = await fetch(MONGO_URI, {
+  const response = await fetch(CONTACT_ENDPOINT, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
