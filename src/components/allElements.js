@@ -7,7 +7,6 @@ import { todosElement } from "./Todos/todos";
 import { hobbiesElement } from "./hobbies/hobbies";
 import { homeElement } from "./Home/home";
 import { contactElement } from "./contact-form/contact-me";
-// place components into array for when page initially starts up
 
 // export each component
 export {
