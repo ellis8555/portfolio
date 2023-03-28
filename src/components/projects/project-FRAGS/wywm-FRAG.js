@@ -1,7 +1,7 @@
 import wywmLogoIcon from "../../../images/projects/wywmLogo.jpg";
 import githubIcon from "../../../images/projects/gitHub.jpg";
 
-const wywmProjectsFrag = `
+const wywmProjectsFrag = ` 
 <!-- WYWM projects -->
 <h4 class="text-center my-5">-- WYWM Projects --</h4>
 <!-- time collision java project -->
@@ -85,7 +85,7 @@ const wywmProjectsFrag = `
             alt="..."
           />
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 align-self-center">
           <div class="card-body">
             <h5 class="card-title">Project Template</h5>
             <p class="card-text">Project template I was given</p>
@@ -115,7 +115,7 @@ const wywmProjectsFrag = `
             alt="..."
           />
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 align-self-center">
           <div class="card-body">
             <h5 class="card-title">My logic</h5>
             <p class="card-text">
