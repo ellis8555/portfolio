@@ -75,7 +75,7 @@ const wywmProjectsFrag = `
 </div>
 <!-- goblin store project TEMPLATE -->
 <div class="row text-center rounded pt-2 pb-3">
-  <div class="col-md-6 mb-3">
+  <div class="col-md-6">
     <div class="card mb-3 h-100 card-opacity">
       <div class="row g-0 h-100">
         <div class="col-md-4">
@@ -88,7 +88,7 @@ const wywmProjectsFrag = `
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Project Template</h5>
-            <p class="card-text">Project template for building a storefront</p>
+            <p class="card-text">Project template I was given</p>
             <p class="card-text">
               <small class="text-muted"
                 ><a
@@ -98,6 +98,7 @@ const wywmProjectsFrag = `
                 ></small
               >
             </p>
+            <p>See 'My logic' project for my custom expansion of this template</p>
           </div>
         </div>
       </div>
@@ -118,7 +119,7 @@ const wywmProjectsFrag = `
           <div class="card-body">
             <h5 class="card-title">My logic</h5>
             <p class="card-text">
-              My storefront logic built upon the project template
+              My added logic built upon the project template I was given
             </p>
             <p class="card-text">
               <small class="text-muted"
