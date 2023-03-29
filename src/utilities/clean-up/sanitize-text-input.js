@@ -1,12 +1,16 @@
 const sanitizeComment = (stringToSanitize) => {
-  let cleanString = stringToSanitize;
-  cleanString = cleanString.replace(/</g, "&lt");
-  cleanString = cleanString.replace(/>/g, "&gt");
-  cleanString = cleanString.replace(/&/g, "&amp");
-  cleanString = cleanString.replace(/"/g, "&gt");
-  cleanString = cleanString.replace(/'/g, "#&39");
-  cleanString = cleanString.replace(/\//g, "#&47");
-  cleanString = cleanString.replace(/;/g, "#semi");
+  const htmlEntities = {
+    "<": "&lt;",
+    ">": "&gt;",
+    "&": "&amp;",
+    '"': "&quot;",
+    "'": "&#39;",
+    "/": "&#47;",
+  };
+  const cleanString = stringToSanitize.replace(
+    /(<|>|&|"|'|\/)/g,
+    (char) => htmlEntities[char]
+  );
   return cleanString;
 };
 
