@@ -15,7 +15,7 @@ ${underConstructionElement.outerHTML}
 <p>This is a vanilla single page app that uses DOM injecting into a root div</p>
 </li>
 <li>
-<p>This page constructed using HTML, javascript, CSS, Sass & bootstrap</p>
+<p>This page constructed using HTML, javascript, CSS, Sass, bootstrap & packed with webpack</p>
 </li>
 <li>
 <p class="mb-0">Second version - React & Tailwind</p>
