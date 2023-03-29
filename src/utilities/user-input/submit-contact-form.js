@@ -1,4 +1,8 @@
-import { appendSingleElement, loadResponseSpinner } from "../allUtilities";
+import {
+  appendSingleElement,
+  loadResponseSpinner,
+  sanitizeComment,
+} from "../allUtilities";
 import { homeElement } from "../../components/allElements";
 
 const getContactMessage = async (e) => {
@@ -13,7 +17,7 @@ const getContactMessage = async (e) => {
   // get submitted values
   const userInput = {
     name: form.elements.name.value,
-    userMessage: form.elements.comment.value,
+    userMessage: sanitizeComment(form.elements.comment.value),
   };
 
   const CONTACT_ENDPOINT = "https://angry-slug-peplum.cyclic.app/contact";
