@@ -14,6 +14,7 @@ import { userNameValidator } from "./user-input/validation/valiation-tests/conta
 import { userCommentValidator } from "./user-input/validation/valiation-tests/contact-name-input";
 import { contactFormValidationTest } from "./user-input/validation/methods/validate-contact-form";
 import { loadResponseSpinner } from "./user-input/validation/methods/load-response-spinner";
+import { sanitizeComment } from "./clean-up/sanitize-text-input";
 export {
   createRouteContainer,
   appendAllElements,
@@ -29,4 +30,5 @@ export {
   userCommentValidator,
   contactFormValidationTest,
   loadResponseSpinner,
+  sanitizeComment,
 };
