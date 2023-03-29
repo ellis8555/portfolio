@@ -1,6 +1,10 @@
-This project injects/removes html components into a #root div in index.html
+# My Portfolio
 
-This project is located [here](https://ellis8555.github.io/CertificatesOnGit/)
+Src-branch contains the development files and structure
+
+This project's build used webpack and sass. Postcss was used to auto prefix the css
+
+This project is located [here](https://ellis8555.github.io/CertificatesOnGit/))
 
 ---
 
