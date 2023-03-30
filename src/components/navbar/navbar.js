@@ -1,13 +1,11 @@
 import { createRouteContainer } from "../../utilities/allUtilities";
 import { navbarLinkItems } from "./navbar-methods/links-injector";
-import { largeScreenLoginElement } from "../../components/login/login-FRAGS/large-screen-login";
-import { smallScreenLoginElement } from "../../components/login/login-FRAGS/small-screen-login";
 
 const navbar = `
 <div
-  class="navbar-menu text-light rounded mx-md-5 mb-5 ps-4 pe-4 d-flex flex-lg-row justify-content-center justify-content-lg-between"
+  class="navbar-menu text-light rounded mb-5 mx-md-5 d-flex flex-md-row justify-content-center justify-content-lg-between"
 >
-  <nav class="navbar navbar-expand-md w-75 justify-content-center">
+  <nav class="navbar navbar-expand-md w-100 justify-content-center">
     <button
       class="navbar-toggler"
       type="button"
@@ -36,15 +34,13 @@ const navbar = `
       </span>
     </button>
 
-    <div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarNavAltMarkup">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse mt-3 mt-md-0 mx-md-2" id="navbarNavAltMarkup">
+      <ul class="navbar-nav w-100 d-lg-flex">
   ${navbarLinkItems}
       </ul>
     </div>
   </nav>
-${largeScreenLoginElement}
 </div>
-${smallScreenLoginElement}
 `;
 
 const navbarElement = createRouteContainer(navbar, "navbar");
