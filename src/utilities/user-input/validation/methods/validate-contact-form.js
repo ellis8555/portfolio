@@ -14,11 +14,11 @@ const contactFormValidationTest = () => {
   const nameHelper = document.getElementById("nameHelp");
   // get comment helper ref
   const commentHelper = document.getElementById("commentHelp");
-  //  apply listener for user input
+  //  apply listener for user input on name field
   nameInput.addEventListener("input", () => {
     checkNameValidation(nameInput, commentInput, submitButton, nameHelper);
   });
-  // apply listener for user input
+  // apply listener for user input on comment field
   commentInput.addEventListener("input", () => {
     checkCommentValidation(
       commentInput,
