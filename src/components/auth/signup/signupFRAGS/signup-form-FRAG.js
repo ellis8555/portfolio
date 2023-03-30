@@ -9,14 +9,15 @@ const signupForm = `
     <label for="signupName" class="form-label text-info">
       Name:
     </label>
-    <input
+       <input
       type="text"
       class="form-control"
       id="signupName"
       name="signupName"
       aria-describedby="singup-invalid"
     />
-    
+    <div id="signupNameHelp" class="form-text">At least 2 characters required</div>
+    <div id="signupName-invalid" class="invalid-feedback"></div>
   </div>
   <div class="my-3">
     <label for="password" class="form-label text-info">
@@ -24,13 +25,16 @@ const signupForm = `
     </label>
     <input
       type="password"
-      id="password"
+      id="signupPassword"
       class="form-control"
-      name="password"
+      name="signupPassword"
       aria-describedby="singup-invalid"
     />
+    <div id="signupPasswordHelp" class="form-text">8 characters required with one of (upper, lower, number, special)</div>
+    <div id="signupPassword-invalid" class="invalid-feedback"></div>
   </div>
-  <div id="singup-invalid" class="invalid-feedback"></div>
+  <div id="signup-invalid" class="invalid-feedback text-danger pb-3"></div>
+  <button type="submit" name="submit" class="btn btn-primary mb-3" disabled>Submit</button>
 </form>;
 `;
 
