@@ -7,6 +7,8 @@ import {
   certificatesElement,
   todosElement,
   contactElement,
+  loginElement,
+  signupElement,
 } from "../../components/allElements";
 
 const routeChange = () => {
@@ -38,6 +40,12 @@ const applyCorrectElement = (elementName) => {
       appendSingleElement(root, contactElement);
       // validates user input and applies listener to submit button
       contactFormValidationTest();
+      break;
+    case "loginElement":
+      appendSingleElement(root, loginElement);
+      break;
+    case "signupElement":
+      appendSingleElement(root, signupElement);
       break;
     default:
       appendSingleElement(root, homeElement);
