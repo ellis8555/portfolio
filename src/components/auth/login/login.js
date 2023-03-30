@@ -1,11 +1,12 @@
 import { createRouteContainer } from "../../../utilities/allUtilities";
+import { loginFormElement } from "./loginFRAGS/login-form-FRAG";
 
 const login = `
-<div class="px-sm-5">
-<p class="display-5 text-center pb-5">Login</p>
-<div class="rounded">
+<div class="px-sm-5 py-3 mt-5">
+<p class="display-5 text-center">Login</p>
+<div class="rounded card-opacity">
     <div id="loginContent">
-        <h1 class="text-warning text-center">login under construction</h1>
+        ${loginFormElement}
     </div>
 </div>
 </div>
