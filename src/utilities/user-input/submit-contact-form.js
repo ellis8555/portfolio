@@ -83,6 +83,7 @@ const getContactMessage = async (e) => {
   }
 };
 
+// this method is used in ./validation/validate-contact-form.js
 const submitContactMe = () => {
   const form = document.forms.contactForm;
   const submitButton = form.elements.submit;
