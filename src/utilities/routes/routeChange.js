@@ -1,5 +1,8 @@
-import { appendSingleElement } from "../allUtilities";
-import { contactFormValidationTest } from "../allUtilities";
+import {
+  appendSingleElement,
+  contactFormValidationTest,
+  signupFormValidationTest,
+} from "../allUtilities";
 import {
   homeElement,
   aboutMeElement,
@@ -38,7 +41,7 @@ const applyCorrectElement = (elementName) => {
       break;
     case "contactElement":
       appendSingleElement(root, contactElement);
-      // validates user input and applies listener to submit button
+      // validates user input and applies listener on submit button
       contactFormValidationTest();
       break;
     case "loginElement":
@@ -46,6 +49,8 @@ const applyCorrectElement = (elementName) => {
       break;
     case "signupElement":
       appendSingleElement(root, signupElement);
+      // validates user input and applies listener on submit button
+      signupFormValidationTest();
       break;
     default:
       appendSingleElement(root, homeElement);
