@@ -1,3 +1,6 @@
+// this method is used in appendSingleElement.js after a successful server response
+// from a form submission
+
 const appendTemporaryMessageReceived = (message, name) => {
   const container = document.createElement("div");
   container.id = "messageResponseContainer";
