@@ -22,6 +22,17 @@ const listItems = [
   {
     elementName: "contactElement",
     linkName: "Contact",
+    marginAuto: "me-auto",
+  },
+  {
+    elementName: "loginElement",
+    linkName: "Login",
+    color: "text-warning",
+  },
+  {
+    elementName: "signupElement",
+    linkName: "Sign up",
+    color: "text-warning",
   },
 ];
 
