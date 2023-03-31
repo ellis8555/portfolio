@@ -2,7 +2,7 @@ import { createRouteContainer } from "../../../../utilities/allUtilities";
 
 const signupForm = `
 <form
-  class="container-fluid card-opacity rounded pt-2 pb-3 px-sm-5"
+  class="container-fluid card-opacity rounded pt-3 pb-3 px-sm-5"
   name="signupForm"
 >
   <div class="my-3">
