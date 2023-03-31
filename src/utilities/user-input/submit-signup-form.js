@@ -26,6 +26,7 @@ const getSignupFormDetails = async (e) => {
 
   const response = await fetch(HOME_URI, {
     method: "POST",
+    credentials: "include",
     headers: {
       "Content-type": "application/json",
     },
