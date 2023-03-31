@@ -2,6 +2,7 @@ import {
   appendSingleElement,
   contactFormValidationTest,
   signupFormValidationTest,
+  loginFormValidationTest,
 } from "../allUtilities";
 import {
   homeElement,
@@ -46,6 +47,8 @@ const applyCorrectElement = (elementName) => {
       break;
     case "loginElement":
       appendSingleElement(root, loginElement);
+      // FUTURE COMMENT REQUIRED HERE
+      loginFormValidationTest();
       break;
     case "signupElement":
       appendSingleElement(root, signupElement);
