@@ -43,9 +43,10 @@ const appendSingleElement = (root, elementToAppend, ...otherArgs) => {
   // if data was submitted then apply message received on home element
   if (wasFormSubmitted) {
     if (elementToAppend === homeElement) {
+      // otherArgs come from appendSingleElement run in form submit files. (ex submit-login-form.js)
       if (otherArgs.length > 0) {
-        const [responseMessage, name] = otherArgs;
-        appendTemporaryMessageReceived(responseMessage, name);
+        const [responseMessage] = otherArgs;
+        appendTemporaryMessageReceived(responseMessage);
       }
     }
   }
