@@ -4,8 +4,13 @@ import {
   homeElement,
   contactElement,
   signupElement,
+  loginElement,
 } from "../../components/allElements";
-import { clearContactFormStyles, clearsignupFormStyles } from "../allUtilities";
+import {
+  clearContactFormStyles,
+  clearsignupFormStyles,
+  clearLoginFormStyles,
+} from "../allUtilities";
 
 const appendSingleElement = (root, elementToAppend, ...otherArgs) => {
   // if moving away from contact form then remove listener on submit button
@@ -28,6 +33,10 @@ const appendSingleElement = (root, elementToAppend, ...otherArgs) => {
   // when navigating to signup form clear values and styles
   if (elementToAppend === signupElement) {
     clearsignupFormStyles();
+  }
+  // when navigating to signup form clear values and styles
+  if (elementToAppend === loginElement) {
+    clearLoginFormStyles();
   }
 
   // if navigating from contact form check to see if data was submitted
