@@ -7,8 +7,8 @@ import { homeElement } from "../../components/allElements";
 
 const getSignupFormDetails = async (e) => {
   e.preventDefault();
-  // get spinner div container
 
+  // get spinner div container
   const spinnerDiv = document.getElementById("signupResponseIndicator");
   loadResponseSpinner(spinnerDiv);
 
@@ -62,7 +62,6 @@ const getSignupFormDetails = async (e) => {
           );
           break;
         case "duplicate":
-          console.log(result.message);
           setVisualValidationOnError(
             "signupName",
             "signup-invalid",
