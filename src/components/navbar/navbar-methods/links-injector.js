@@ -1,4 +1,8 @@
 import { listItems } from "../navbar-list-items";
+import { isLoggedIn } from "../../../utilities/allUtilities";
+
+// check if user is logged in via access-token cookie
+const isUserSignedIn = isLoggedIn().isSignedIn;
 
 const createLinkItems = (...linkItems) => {
   const containerDiv = document.createElement("div");
@@ -21,6 +25,19 @@ const createLinkItems = (...linkItems) => {
     } else {
       a.classList.add("text-light", "text-decoration-none", "nav-link");
     }
+
+    // hide login/logout/sign up depending on accessToken
+    if (
+      isUserSignedIn &&
+      (item.elementName === "loginElement" ||
+        item.elementName === "signupElement")
+    ) {
+      li.classList.add("d-none");
+    }
+    if (!isUserSignedIn && item.elementName === "logoutElement") {
+      li.classList.add("d-none");
+    }
+
     const listName = document.createTextNode(`${item.linkName}`);
     a.append(listName);
     li.append(a);
