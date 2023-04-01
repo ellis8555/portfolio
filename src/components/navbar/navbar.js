@@ -3,7 +3,7 @@ import { navbarLinkItems } from "./navbar-methods/links-injector";
 
 const navbar = `
 <div
-  class="navbar-menu text-light rounded mb-5 mx-md-5 d-flex flex-md-row justify-content-center justify-content-lg-between"
+  class="navbar-menu text-light rounded mb-5 mx-md-2 mx-lg-5 d-flex flex-md-row justify-content-center justify-content-lg-between"
 >
   <nav class="navbar navbar-expand-md w-100 justify-content-center">
     <button
@@ -38,9 +38,11 @@ const navbar = `
       <ul class="navbar-nav w-100 d-lg-flex">
   ${navbarLinkItems}
       </ul>
+      <div id="loggedInUsername" class="text-light fs-6 border-start ps-2 d-none d-md-block"></div>
     </div>
   </nav>
 </div>
+
 `;
 
 const navbarElement = createRouteContainer(navbar, "navbar");
