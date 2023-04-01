@@ -2,6 +2,7 @@ import {
   appendSingleElement,
   loadResponseSpinner,
   sanitizeComment,
+  login,
 } from "../allUtilities";
 import { homeElement } from "../../components/allElements";
 
@@ -42,6 +43,7 @@ const getLoginFormDetails = async (e) => {
     const responseName = result.username;
     form.reset();
     appendSingleElement(root, homeElement, responseMessage, responseName);
+    login();
   } else {
     if (result.hasOwnProperty("field")) {
       const fieldName = result.field;
