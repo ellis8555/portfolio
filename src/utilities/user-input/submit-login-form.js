@@ -26,7 +26,6 @@ const getLoginFormDetails = async (e) => {
 
   const response = await fetch(LOGIN_ENDPOINT, {
     method: "POST",
-    credentials: "include",
     headers: {
       "Content-type": "application/json",
     },
@@ -38,10 +37,14 @@ const getLoginFormDetails = async (e) => {
   if (response.ok) {
     // remove loading spinner
     spinnerDiv.innerHTML = "";
-    const responseMessage = result.message;
-    const responseName = result.username;
+    const results = {
+      accessToken: result.accessToken,
+      message: result.message,
+      username: result.username,
+    };
+    localStorage.setItem("user", JSON.stringify(results));
     form.reset();
-    appendSingleElement(root, homeElement, responseMessage, responseName);
+    appendSingleElement(root, homeElement, results.message, results.username);
     login();
   } else {
     if (result.hasOwnProperty("field")) {
