@@ -8,7 +8,7 @@ const pageStartup = (root, ...startElements) => {
   // if logged in display username
   const isUserLoggedIn = isLoggedIn().isSignedIn;
   if (isUserLoggedIn) {
-    const username = isLoggedIn().username;
+    const username = isLoggedIn().user.username;
     const displayUsernameDiv = document.getElementById("loggedInUsername");
     displayUsernameDiv.innerHTML = username;
   }
