@@ -1,4 +1,7 @@
-const appendTemporaryMessageReceived = (message, name) => {
+// this method is used in appendSingleElement.js after a successful server response
+// from a form submission
+
+const appendTemporaryMessageReceived = (message) => {
   const container = document.createElement("div");
   container.id = "messageResponseContainer";
   container.classList.add("mx-5", "mb-5", "px-5", "py-3");
@@ -11,7 +14,7 @@ const appendTemporaryMessageReceived = (message, name) => {
     "display-6",
     "rounded"
   );
-  const messageToUser = `Thank you ${name}! ${message}`;
+  const messageToUser = `${message}`;
   const responseMessage = document.createTextNode(messageToUser);
   responseContainer.append(responseMessage);
   container.append(responseContainer);

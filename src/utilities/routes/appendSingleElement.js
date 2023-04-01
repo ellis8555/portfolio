@@ -1,7 +1,16 @@
 import { cleanUp } from "../clean-up/clean-up";
 import { appendTemporaryMessageReceived } from "../user-input/responseMessage";
-import { homeElement, contactElement } from "../../components/allElements";
-import { clearContactFormStyles } from "../allUtilities";
+import {
+  homeElement,
+  contactElement,
+  signupElement,
+  loginElement,
+} from "../../components/allElements";
+import {
+  clearContactFormStyles,
+  clearsignupFormStyles,
+  clearLoginFormStyles,
+} from "../allUtilities";
 
 const appendSingleElement = (root, elementToAppend, ...otherArgs) => {
   // if moving away from contact form then remove listener on submit button
@@ -21,13 +30,23 @@ const appendSingleElement = (root, elementToAppend, ...otherArgs) => {
   if (elementToAppend === contactElement) {
     clearContactFormStyles();
   }
+  // when navigating to signup form clear values and styles
+  if (elementToAppend === signupElement) {
+    clearsignupFormStyles();
+  }
+  // when navigating to signup form clear values and styles
+  if (elementToAppend === loginElement) {
+    clearLoginFormStyles();
+  }
+
   // if navigating from contact form check to see if data was submitted
   // if data was submitted then apply message received on home element
   if (wasFormSubmitted) {
     if (elementToAppend === homeElement) {
+      // otherArgs come from appendSingleElement run in form submit files. (ex submit-login-form.js)
       if (otherArgs.length > 0) {
-        const [responseMessage, name] = otherArgs;
-        appendTemporaryMessageReceived(responseMessage, name);
+        const [responseMessage] = otherArgs;
+        appendTemporaryMessageReceived(responseMessage);
       }
     }
   }

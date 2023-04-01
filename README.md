@@ -47,3 +47,6 @@ to add a link requires two steps
 
 1. add link details in ./src/components/navbar/navbar-list-items.js
 2. import the element that's connected to the link and add that element to the switch statement in ./src/utilities/routes/routeChange.js
+
+- to float links to the right from a dividing point within the navbars links insert a key/value pair "marginAuto: 'me-auto'
+  in 'navbar-list-items.js. Currently set on 'Contact' link

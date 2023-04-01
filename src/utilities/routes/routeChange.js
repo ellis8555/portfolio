@@ -1,5 +1,9 @@
-import { appendSingleElement } from "../allUtilities";
-import { contactFormValidationTest } from "../allUtilities";
+import {
+  appendSingleElement,
+  contactFormValidationTest,
+  signupFormValidationTest,
+  loginFormValidationTest,
+} from "../allUtilities";
 import {
   homeElement,
   aboutMeElement,
@@ -7,6 +11,8 @@ import {
   certificatesElement,
   todosElement,
   contactElement,
+  loginElement,
+  signupElement,
 } from "../../components/allElements";
 
 const routeChange = () => {
@@ -36,8 +42,18 @@ const applyCorrectElement = (elementName) => {
       break;
     case "contactElement":
       appendSingleElement(root, contactElement);
-      // validates user input and applies listener to submit button
+      // validates user input and applies listener on submit button
       contactFormValidationTest();
+      break;
+    case "loginElement":
+      appendSingleElement(root, loginElement);
+      // FUTURE COMMENT REQUIRED HERE
+      loginFormValidationTest();
+      break;
+    case "signupElement":
+      appendSingleElement(root, signupElement);
+      // validates user input and applies listener on submit button
+      signupFormValidationTest();
       break;
     default:
       appendSingleElement(root, homeElement);

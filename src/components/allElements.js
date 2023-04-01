@@ -7,7 +7,8 @@ import { todosElement } from "./Todos/todos";
 import { hobbiesElement } from "./hobbies/hobbies";
 import { homeElement } from "./Home/home";
 import { contactElement } from "./contact-form/contact-me";
-
+import { loginElement } from "./auth/login/login";
+import { signupElement } from "./auth/signup/signup";
 // export each component
 export {
   homeElement,
@@ -19,4 +20,6 @@ export {
   todosElement,
   hobbiesElement,
   contactElement,
+  loginElement,
+  signupElement,
 };
