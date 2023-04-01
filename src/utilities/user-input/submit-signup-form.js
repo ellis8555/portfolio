@@ -22,7 +22,7 @@ const getSignupFormDetails = async (e) => {
     password: sanitizeComment(form.elements.signupPassword.value),
   };
 
-  const SIGNUP_ENDPOINT = "https://angry-slug-peplum.cyclic.app";
+  const SIGNUP_ENDPOINT = "https://angry-slug-peplum.cyclic.app/user/register";
 
   const response = await fetch(SIGNUP_ENDPOINT, {
     method: "POST",
