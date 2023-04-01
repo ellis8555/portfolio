@@ -23,9 +23,8 @@ const getLoginFormDetails = async (e) => {
   };
 
   const LOGIN_ENDPOINT = "https://angry-slug-peplum.cyclic.app";
-  const HOME_URI = "http://localhost:3500/user/login";
 
-  const response = await fetch(HOME_URI, {
+  const response = await fetch(LOGIN_ENDPOINT, {
     method: "POST",
     credentials: "include",
     headers: {
