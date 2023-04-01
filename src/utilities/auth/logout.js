@@ -1,7 +1,5 @@
 const logout = () => {
-  // clear cookies which hold token information
-  document.cookie = "access-token=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
-  document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+  localStorage.removeItem("user");
 
   // get the auth type links
   const usernameDisplayDiv = document.querySelector("#loggedInUsername");
