@@ -29,6 +29,9 @@ import { signupFormValidationTest } from "./user-input/validation/methods/valida
 import { loginFormValidationTest } from "./user-input/validation/methods/validate-login-form";
 import { loadResponseSpinner } from "./user-input/validation/methods/load-response-spinner";
 import { sanitizeComment } from "./clean-up/sanitize-text-input";
+import { isLoggedIn } from "./auth/isLoggedIn";
+import { login } from "./auth/login";
+import { logout } from "./auth/logout";
 
 export {
   createRouteContainer,
@@ -56,4 +59,7 @@ export {
   loginFormValidationTest,
   loadResponseSpinner,
   sanitizeComment,
+  isLoggedIn,
+  login,
+  logout,
 };
