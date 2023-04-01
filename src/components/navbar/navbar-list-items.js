@@ -30,6 +30,11 @@ const listItems = [
     color: "text-warning",
   },
   {
+    elementName: "logoutElement",
+    linkName: "Logout",
+    color: "text-warning",
+  },
+  {
     elementName: "signupElement",
     linkName: "Sign up",
     color: "text-warning",
