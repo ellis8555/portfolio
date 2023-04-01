@@ -1,22 +1,18 @@
 const isLoggedIn = () => {
   let isSignedIn = false;
-  let username;
-  const cookies = document.cookie.split(";");
-  cookies.forEach((cookie) => {
-    if (cookie.includes("access-token")) {
-      isSignedIn = true;
-    }
-    if (cookie.includes("username")) {
-      const usernameString = cookie.split("=");
-      username = usernameString[1];
-    }
-  });
+  let user;
 
-  const details = {
+  if (localStorage.getItem("user") !== null) {
+    user = JSON.parse(localStorage.getItem("user"));
+    isSignedIn = true;
+  }
+
+  const userDetails = {
     isSignedIn,
-    username,
+    user,
   };
-  return details;
+
+  return userDetails;
 };
 
 export { isLoggedIn };
