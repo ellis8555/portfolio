@@ -1,7 +1,7 @@
 import { isLoggedIn } from "../allUtilities";
 
 const login = () => {
-  const username = isLoggedIn().username;
+  const username = isLoggedIn().user.username;
 
   const usernameDisplayDiv = document.querySelector("#loggedInUsername");
   const logoutLink = document.querySelector("[data-name='logoutElement']");
