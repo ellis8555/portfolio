@@ -59,7 +59,6 @@ const underConstructionFRAG = `
       </div>
     </div>
   </div>
-   <div class="under-construction-text-color fs-5">Login/out, Sign up now functional!</div>
 </div>`;
 
 export { underConstructionFRAG };
