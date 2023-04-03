@@ -34,7 +34,7 @@ const signupForm = `
     <div id="signupPassword-invalid" class="invalid-feedback"></div>
   </div>
   <div id="signup-invalid" class="invalid-feedback text-danger pb-3"></div>
-  <button type="submit" name="submit" class="btn btn-primary mb-3" disabled>Submit</button>
+  <button type="submit" name="submit" class="btn btn-primary mb-3" disabled>Register</button>
 </form>;
 `;
 
