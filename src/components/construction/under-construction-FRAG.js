@@ -9,21 +9,21 @@ const underConstructionFRAG = `
     <div class="row d-flex">
       <p class="text-center">Front-end</p>
       <div class="col align-self-center">
-        <img src="${eachWebdevImage[18].imageSrc}" alt="${eachWebdevImage[18].imageAlt}" class="rounded" />
+        <img src="${eachWebdevImage[6].imageSrc}" alt="${eachWebdevImage[6].imageAlt}" class="rounded" />
       </div>
       <div class="col">
         <img
-          src="${eachWebdevImage[0].imageSrc}"
-          alt="${eachWebdevImage[0].imageAlt}"
+          src="${eachWebdevImage[18].imageSrc}"
+          alt="${eachWebdevImage[18].imageAlt}"
         />
       </div>
       <div class="col align-self-center">
-        <img src="${eachWebdevImage[15].imageSrc}" alt="${eachWebdevImage[15].imageAlt}" />
+        <img src="${eachWebdevImage[0].imageSrc}" alt="${eachWebdevImage[0].imageAlt}" />
       </div>
     </div>
   </div>
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
-    <p class="under-construction-text-color fs-5">
+    <p class="text-info fs-5">
       Upcoming version
     </p>
 
