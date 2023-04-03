@@ -24,7 +24,7 @@ const underConstructionFRAG = `
   </div>
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
     <p class="text-info fs-5">
-      Upcoming version
+      second version
     </p>
 
     <div class="row d-flex">

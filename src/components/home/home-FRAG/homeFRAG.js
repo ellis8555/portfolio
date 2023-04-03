@@ -8,7 +8,7 @@ ${underConstructionElement.outerHTML}
 <ul class="list-unstyled mt-3 border border-success rounded p-3">
 <li>
 <p>
-  Currently working on creating a unique portfolio project
+  Currently working on this portfolio project
 </p>
 </li>
 <li>
