@@ -30,7 +30,7 @@ const loginForm = `
     <div id="loginPassword-invalid" class="invalid-feedback"></div>
   </div>
   <div id="login-invalid" class="invalid-feedback pb-3"></div>
-  <button type="submit" name="submit" class="btn btn-primary mb-3" disabled>Submit</button>
+  <button type="submit" name="submit" class="btn btn-primary mb-3" disabled>Login</button>
 </form>;
 `;
 
