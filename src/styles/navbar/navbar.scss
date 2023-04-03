@@ -20,9 +20,3 @@
 nav li:hover {
     background-color: $black-opacity;
 }
-
-#auth-small-screen {
-    display: initial;
-    background-color: $bg-main-color-quarter-opacity;
-    transition: display 1s ease, background-color 1s ease;
-}
