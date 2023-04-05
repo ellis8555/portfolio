@@ -3,7 +3,7 @@ import { navbarLinkItems } from "./navbar-methods/links-injector";
 
 const navbar = `
 <div
-  class="navbar-menu text-light rounded mb-5 mx-md-2 mx-lg-5 d-flex flex-md-row justify-content-center justify-content-lg-between"
+  class="navbar-menu text-light rounded mx-md-2 mx-lg-5 d-flex flex-md-row justify-content-center justify-content-lg-between"
 >
   <nav class="navbar navbar-expand-md w-100 justify-content-center">
     <button
@@ -42,6 +42,10 @@ const navbar = `
     </div>
   </nav>
 </div>
+  <div>
+  <p id="mobileLoggedIn" class="text-light text-end me-1 d-md-none"></p>
+</div>
+
 
 `;
 
