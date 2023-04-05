@@ -8,12 +8,14 @@ import { homeElement } from "../../components/allElements";
 const logout = () => {
   // get the auth type links
   const usernameDisplayDiv = document.querySelector("#loggedInUsername");
+  const mobileUsernameDisplayDiv = document.querySelector("#mobileLoggedIn");
   const logoutLink = document.querySelector("[data-name='logoutElement']");
   const loginLink = document.querySelector("[data-name='loginElement']");
   const signupLink = document.querySelector("[data-name='signupElement']");
 
   // hide the logout link and display the login/signup links
   usernameDisplayDiv.innerHTML = "";
+  mobileUsernameDisplayDiv.innerHTML = "";
   logoutLink.classList.add("d-none");
   loginLink.classList.remove("d-none");
   signupLink.classList.remove("d-none");
