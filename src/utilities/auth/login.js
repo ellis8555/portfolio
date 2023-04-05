@@ -9,8 +9,8 @@ const login = () => {
   const loginLink = document.querySelector("[data-name='loginElement']");
   const signupLink = document.querySelector("[data-name='signupElement']");
 
-  usernameDisplayDiv.innerHTML = username;
-  mobileUsernameDisplayDiv.innerHTML = username;
+  usernameDisplayDiv.innerHTML = `<span class="text-info">${username}</span>`;
+  mobileUsernameDisplayDiv.innerHTML = `Signed in: <span class="text-info">${username}</span>`;
   logoutLink.classList.remove("d-none");
   loginLink.classList.add("d-none");
   signupLink.classList.add("d-none");
