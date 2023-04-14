@@ -23,9 +23,9 @@ const underConstructionFRAG = `
     </div>
   </div>
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
-    <p class="text-info fs-5">
-      second version
-    </p>
+  <p>
+  <a href="https://github.com/ellis8555/react-portfolio" class="text-info text-decoration-underline fs-5">React version github</a>
+</p>
 
     <div class="row d-flex">
       <p class="text-center">Front-end</p>
@@ -33,7 +33,7 @@ const underConstructionFRAG = `
         <img src="${eachWebdevImage[14].imageSrc}" alt="${eachWebdevImage[14].imageAlt}" />
       </div>
       <div class="col">
-        <img src="${eachWebdevImage[12].imageSrc}" alt="${eachWebdevImage[12].imageAlt}" />
+        <img src="${eachWebdevImage[6].imageSrc}" alt="${eachWebdevImage[6].imageAlt}" />
       </div>
       <div class="col align-self-center">
         <img src="${eachWebdevImage[16].imageSrc}" alt="${eachWebdevImage[16].imageAlt}" />
