@@ -7,6 +7,7 @@ const aboutMeItems = [
   "I have a strong foundation in HTML, CSS, and javascript",
   "Good solid base knowledge of front and back side technologies",
   "Have experience with SQL and noSQL db's",
+  "Unit and integration testing",
   "Am always aware of the latest frameworks and willing to learn anything new",
 ];
 
