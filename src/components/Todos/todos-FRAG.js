@@ -18,9 +18,10 @@ const todosFRAG = `
           <div class="card-body">
             <h5 class="card-title">List of things to accomplish</h5>
             <ul class="list-group list-group-flush rounded card-ul-opacity">
-              <li class="list-group-item">1. React this portfolio</li>
-              <li class="list-group-item">2. Next.js</li>
-              <li class="list-group-item">3. React Native</li>
+              <li class="list-group-item">1. Jest & React testing library</li>
+              <li class="list-group-item">2. Complete react version of this project</li>
+              <li class="list-group-item">3. Next.js</li>
+              <li class="list-group-item">4. React Native</li>
             </ul>
           </div>
         </div>
