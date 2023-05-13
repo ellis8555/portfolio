@@ -1,17 +1,23 @@
 .contact-icon {
-    position:absolute;
-    transform: translateX(-2rem)
+  position: absolute;
+  transform: translateX(-2rem);
 }
 
 .email-icon {
-    height: 1.5rem;
-    width: 2rem;
-    color: white;
-    display: inline-block
+  height: 1.5rem;
+  width: 2rem;
+  color: white;
+  display: inline-block;
 }
 
 #linkedin-link::before {
-    position: absolute;
-   content: url(/src/images/about-me/linkedin-logo.png);
-    transform: scale(1.25) translate(-1.5rem, .15rem )
+  position: absolute;
+  content: url(/src/images/about-me/linkedin-logo.png);
+  transform: scale(1.25) translate(-1.5rem, 0.15rem);
+}
+
+#gmail-icon::before {
+  position: absolute;
+  content: url(/src/images/about-me/gmail.png);
+  transform: scale(1.75) translate(-1.25rem, 0rem);
 }
