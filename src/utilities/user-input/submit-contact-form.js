@@ -2,6 +2,8 @@ import {
   appendSingleElement,
   loadResponseSpinner,
   sanitizeComment,
+  sendMail,
+  createEmail,
 } from "../allUtilities";
 import { homeElement } from "../../components/allElements";
 
@@ -37,6 +39,11 @@ const getContactMessage = async (e) => {
     spinnerDiv.innerHTML = "";
     const responseMessage = result.message;
     const responseName = result.name;
+    // send contact form message to admins email
+    sendMail(
+      createEmail(userInput.name, form.elements.comment.value),
+      userInput.name
+    );
     form.reset();
     appendSingleElement(root, homeElement, responseMessage, responseName);
   } else {
