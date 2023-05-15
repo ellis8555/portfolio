@@ -33,6 +33,7 @@ import { appendTemporaryMessageReceived } from "../utilities/user-input/response
 import { isLoggedIn } from "./auth/isLoggedIn";
 import { login } from "./auth/login";
 import { logout } from "./auth/logout";
+import { sendMail, createEmail } from "./user-input/emailJs-response";
 
 export {
   createRouteContainer,
@@ -64,4 +65,6 @@ export {
   isLoggedIn,
   login,
   logout,
+  sendMail,
+  createEmail,
 };
