@@ -18,11 +18,15 @@ const todosFRAG = `
           <div class="card-body">
             <h5 class="card-title">List of things to accomplish</h5>
             <ul class="list-group list-group-flush rounded card-ul-opacity">
-              <li class="list-group-item">1. Jest & React testing library</li>
-              <li class="list-group-item">2. Docker</li>
-              <li class="list-group-item">3. Complete react version of this project</li>
-              <li class="list-group-item">4. Next.js</li>
-              <li class="list-group-item">5. React Native</li>
+              <li class="list-group-item">1. Unit & integration testing</li>
+              <li class="list-group-item">2. Complete react version of this project</li>
+              <li class="list-group-item">3. Next.js</li>
+              <li class="list-group-item">4. React Native</li>
+              <li class="list-group-item">5. Nest.js</li>
+              <li class="list-group-item">6. Docker</li>
+              <li class="list-group-item">7. Java Spring Boot</li>
+              <li class="list-group-item">8. Java backend web service</li>
+              <li class="list-group-item">9. Docker</li>
             </ul>
           </div>
         </div>
