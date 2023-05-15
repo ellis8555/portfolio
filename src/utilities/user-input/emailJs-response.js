@@ -1,5 +1,5 @@
 //////////////////////////////////////////////
-// EMAIL FROM CONTACT FORM
+// EMAIL COMMENT TO ADMIN
 //////////////////////////////////////////////
 
 // returns the body of the email
@@ -19,7 +19,7 @@ function createEmail(
 }
 
 // sends the email
-function sendMail(createEmailCallback, name) {
+async function sendMail(createEmailCallback, name) {
   const params = {
     name: name,
     comment: createEmailCallback,
@@ -29,12 +29,7 @@ function sendMail(createEmailCallback, name) {
   const serviceID = "default_service";
   const templateID = "template_ll6ubij";
 
-  emailjs
-    .send(serviceID, templateID, params)
-    .then(() => {
-      return;
-    })
-    .catch((err) => console.log(err));
+  await emailjs.send(serviceID, templateID, params);
 }
 
 export { sendMail, createEmail };
