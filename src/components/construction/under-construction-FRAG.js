@@ -24,7 +24,7 @@ const underConstructionFRAG = `
   </div>
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
   <p>
-  <a href="https://github.com/ellis8555/react-portfolio" class="text-info text-decoration-underline fs-5">React version github</a>
+  <a href="https://github.com/ellis8555/react-portfolio" class="under-construction-text-color text-decoration-underline fs-5">React version github</a>
 </p>
 
     <div class="row d-flex">
