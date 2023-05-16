@@ -9,6 +9,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.test\.js$/,
+        exclude: /__tests__/,
+        use: ["babel-loader"],
+      },
+      {
         test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
