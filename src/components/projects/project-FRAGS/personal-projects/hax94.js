@@ -1,4 +1,4 @@
-import hax94 from "../../../../images/projects/hax94.JPG";
+import hax94 from "../../../../images/projects/hax94.webp";
 
 const hax94Project = `
 <div class="row text-center rounded">
