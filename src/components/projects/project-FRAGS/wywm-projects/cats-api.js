@@ -1,4 +1,4 @@
-import wywmLogoIcon from "../../../../images/projects/wywmLogo.jpg";
+import wywmLogoIcon from "../../../../images/projects/kittieFacts.webp";
 
 const catsApi = `
 <div class="row text-center rounded mt-3">
