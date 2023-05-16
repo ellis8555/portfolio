@@ -15,6 +15,9 @@ ${underConstructionElement.outerHTML}
 <li>
 <p>Bootstrap is used for styling and animations in this project</p>
 </li>
+<li>
+<p>Jest for testing</p>
+</li>
 </ul>
 </div>
 </div>
