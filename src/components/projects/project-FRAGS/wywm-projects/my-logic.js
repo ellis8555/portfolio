@@ -1,4 +1,4 @@
-import wywmLogoIcon from "../../../../images/projects/wywmLogo.jpg";
+import wywmLogoIcon from "../../../../images/projects/goblinStore.webp";
 
 const myGoblinStore = `
 <div class="col-md-6">
