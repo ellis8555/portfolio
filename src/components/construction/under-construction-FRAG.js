@@ -11,7 +11,7 @@ const underConstructionFRAG = `
       <div class="col align-self-center">
         <img src="${eachWebdevImage[6].imageSrc}" alt="${eachWebdevImage[6].imageAlt}" class="rounded" />
       </div>
-      <div class="col">
+      <div class="col align-self-center">
         <img
           src="${eachWebdevImage[18].imageSrc}"
           alt="${eachWebdevImage[18].imageAlt}"
@@ -19,6 +19,9 @@ const underConstructionFRAG = `
       </div>
       <div class="col align-self-center">
         <img src="${eachWebdevImage[0].imageSrc}" alt="${eachWebdevImage[0].imageAlt}" />
+      </div>
+      <div class="col align-self-center">
+        <img src="${eachWebdevImage[19].imageSrc}" alt="${eachWebdevImage[19].imageAlt}" />
       </div>
     </div>
   </div>
