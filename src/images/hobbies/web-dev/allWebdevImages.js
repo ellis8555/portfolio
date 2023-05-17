@@ -17,6 +17,7 @@ import sassIcon from "./sass.png";
 import tailwindIcon from "./tailwind.png";
 import typescriptIcon from "./typescript.png";
 import webpackIcon from "./webpack.png";
+import jestIcon from "./jest.webp";
 
 const eachWebdevImage = [
   {
@@ -114,6 +115,11 @@ const eachWebdevImage = [
     imageSrc: webpackIcon,
     imageAlt: "webpack",
   },
+  {
+    // 19
+    imageSrc: jestIcon,
+    imageAlt: "jest",
+  },
 ];
 
 export const eachWebdevImageLength = eachWebdevImage.length;
@@ -139,4 +145,5 @@ export {
   typescriptIcon,
   webpackIcon,
   eachWebdevImage,
+  jestIcon,
 };
