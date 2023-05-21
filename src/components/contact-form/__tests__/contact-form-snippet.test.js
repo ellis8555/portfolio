@@ -1,6 +1,6 @@
 import { contactFormSnippet } from "../contact-me-FRAGs/contact-me-snippets/contact-form-snippet";
-import { userCommentValidator } from "../../../utilities/user-input/validation/valiation-tests/contact-name-input";
-import { userNameValidator } from "../../../utilities/user-input/validation/valiation-tests/contact-comment-input";
+import { userCommentValidator } from "../../../utilities/user-input/validation/valiation-tests/contact-comment-input";
+import { userNameValidator } from "../../../utilities/user-input/validation/valiation-tests/contact-name-input";
 import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
 import "@testing-library/jest-dom";

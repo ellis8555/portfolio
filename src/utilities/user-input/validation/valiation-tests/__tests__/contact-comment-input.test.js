@@ -1,4 +1,4 @@
-import { userCommentValidator } from "../contact-name-input";
+import { userCommentValidator } from "../contact-comment-input";
 
 // invalid comment tests
 

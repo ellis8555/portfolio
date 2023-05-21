@@ -1,10 +1,10 @@
-import { contactFormComment } from "../regex/regex-patterns";
+import { contactFormName } from "../regex/regex-patterns";
 
-const userCommentValidator = (value) => {
-  if (contactFormComment.test(value)) {
+const userNameValidator = (value) => {
+  if (contactFormName.test(value)) {
     return true;
   }
   return false;
 };
 
-export { userCommentValidator };
+export { userNameValidator };
