@@ -34,6 +34,14 @@ import { isLoggedIn } from "./auth/isLoggedIn";
 import { login } from "./auth/login";
 import { logout } from "./auth/logout";
 import { sendMail, createEmail } from "./user-input/emailJs-response";
+import { applyValidityClass } from "./user-input/validation/methods/validate-helper-methods/applyValidityClass";
+import { checkNameValidation } from "./user-input/validation/methods/validate-helper-methods/checkNameValidation";
+import { checkCommentValidation } from "./user-input/validation/methods/validate-helper-methods/checkCommentValidation";
+import { isOtherFieldValidated } from "./user-input/validation/methods/validate-helper-methods/isOtherFieldValidated";
+import { isOtherLoginFieldValidated } from "./user-input/validation/methods/validate-helper-methods/isOtherLoginFieldValidated";
+import { checkLoginValidation } from "./user-input/validation/methods/validate-helper-methods/checkLoginValidation";
+import { checkPasswordValidation } from "./user-input/validation/methods/validate-helper-methods/checkPasswordValidation";
+import { checkSignupNameValidation } from "./user-input/validation/methods/validate-helper-methods/checkSignupNameValidation";
 
 export {
   createRouteContainer,
@@ -67,4 +75,12 @@ export {
   logout,
   sendMail,
   createEmail,
+  applyValidityClass,
+  checkNameValidation,
+  checkCommentValidation,
+  isOtherFieldValidated,
+  isOtherLoginFieldValidated,
+  checkLoginValidation,
+  checkPasswordValidation,
+  checkSignupNameValidation,
 };
