@@ -4,7 +4,7 @@ const underConstructionFRAG = `
 <div class="row pb-3">
   <div class="col-lg-3 construction-ul-opacity mx-auto rounded p-2 my-2">
     <p>
-      <a href="https://github.com/ellis8555/CertificatesOnGit/tree/src-branch" class="under-construction-text-color text-decoration-underline fs-5">This frontend github</a>
+      <a href="https://github.com/ellis8555/portfolio" class="under-construction-text-color text-decoration-underline fs-5">This frontend github</a>
     </p>
     <div class="row d-flex">
       <p class="text-center">Front-end</p>
