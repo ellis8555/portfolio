@@ -2,7 +2,7 @@ import { applyValidityClass } from "../applyValidityClass";
 import { contactFormSnippet } from "../../../../../../components/contact-form/contact-me-FRAGs/contact-me-snippets/contact-form-snippet";
 import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
-import "@testing-library/jest-dom";
+import { toHaveClass } from "@testing-library/jest-dom";
 
 jsdomGlobal();
 

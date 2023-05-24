@@ -1,6 +1,4 @@
-import { toBeBoolean } from "jest-extended";
 import { sanitizeComment } from "../sanitize-text-input";
-expect.extend({ toBeBoolean });
 
 describe("results to return HTML entity", () => {
   test("<", () => {

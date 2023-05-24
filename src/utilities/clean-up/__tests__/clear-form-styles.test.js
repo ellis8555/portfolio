@@ -1,6 +1,6 @@
 import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
-import "@testing-library/jest-dom";
+import { toHaveClass, toHaveAttribute } from "@testing-library/jest-dom";
 import { contactFormSnippet } from "../../../components/contact-form/contact-me-FRAGs/contact-me-snippets/contact-form-snippet";
 import { clearContactFormStyles } from "../clear-form-styles";
 

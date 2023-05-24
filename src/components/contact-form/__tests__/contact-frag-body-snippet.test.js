@@ -2,7 +2,7 @@ import { contactFragBodySnippet } from "../contact-me-FRAGs/contact-me-snippets/
 
 import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
-import "@testing-library/jest-dom";
+import { toHaveTextContent } from "@testing-library/jest-dom";
 
 jsdomGlobal();
 

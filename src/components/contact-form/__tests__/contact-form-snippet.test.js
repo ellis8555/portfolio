@@ -3,7 +3,11 @@ import { userCommentValidator } from "../../../utilities/user-input/validation/v
 import { userNameValidator } from "../../../utilities/user-input/validation/valiation-tests/contact-name-input";
 import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
-import "@testing-library/jest-dom";
+import {
+  toBeInTheDocument,
+  toHaveTextContent,
+  toBeDisabled,
+} from "@testing-library/jest-dom";
 
 jsdomGlobal();
 

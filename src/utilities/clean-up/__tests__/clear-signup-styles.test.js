@@ -1,6 +1,6 @@
 import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
-import "@testing-library/jest-dom";
+import { toHaveAttribute, toHaveClass } from "@testing-library/jest-dom";
 import { signupForm } from "../../../components/auth/signup/signupFRAGS/signupSnippet";
 import { clearsignupFormStyles } from "../clear-signup-styles";
 
