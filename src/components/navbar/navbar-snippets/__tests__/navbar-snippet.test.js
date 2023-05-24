@@ -2,7 +2,7 @@ import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
 import "@testing-library/jest-dom";
 
-import { navbar } from "../navbar";
+import { navbar } from "../navbar-snippet";
 
 jest.mock("../../navbar-methods/links-injector", () => ({
   navbarLinkItems: "Mocked navbarLinkItems value",
