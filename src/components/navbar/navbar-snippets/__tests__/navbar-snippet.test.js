@@ -1,6 +1,6 @@
 import jsdomGlobal from "jsdom-global";
 import cleanup from "jsdom-global";
-import "@testing-library/jest-dom";
+import { toBeInTheDocument } from "@testing-library/jest-dom";
 
 import { navbar } from "../navbar-snippet";
 
