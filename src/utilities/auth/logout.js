@@ -1,7 +1,7 @@
 import {
   isLoggedIn,
-  appendTemporaryMessageReceived,
   appendSingleElement,
+  appendTemporaryMessageReceived,
 } from "../allUtilities";
 import { homeElement } from "../../components/allElements";
 
@@ -24,17 +24,29 @@ const logout = () => {
   const username = isLoggedIn().user.username;
   const logoutMessage = `${username} you are now logged out`;
 
-  appendSingleElement(root, homeElement);
-  appendTemporaryMessageReceived(logoutMessage);
+  // logoutInnerMethods(homeElement, logoutMessage);
+  appendTheseElements(homeElement, logoutMessage);
 
-  // remove user token from localstorage
-  localStorage.removeItem("user");
+  // if check is for jest testing
+  if (typeof localStorage !== "undefined") {
+    // remove user token from localstorage
+    localStorage.removeItem("user");
+  }
 };
 
-// apply logout click listener on logout link once window loads
-window.addEventListener("load", () => {
-  const logoutElement = document.querySelector("a[href='#Logout']");
-  logoutElement.addEventListener("click", logout);
-});
+const appendTheseElements = (homeElement, logoutMessage) => {
+  const root = document.getElementById("root");
+  appendSingleElement(root, homeElement);
+  appendTemporaryMessageReceived(logoutMessage);
+};
 
-export { logout };
+// if test is for jest testing
+if (typeof window !== "undefined") {
+  // apply logout click listener on logout link once window loads
+  window.addEventListener("load", () => {
+    const logoutElement = document.querySelector("a[href='#Logout']");
+    logoutElement.addEventListener("click", logout);
+  });
+}
+
+export { logout, appendTheseElements };
