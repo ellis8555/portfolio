@@ -12,4 +12,4 @@ const hobbies = `
 </div>;`;
 
 const hobbiesElement = createRouteContainer(hobbies, "hobbies");
-export { hobbiesElement };
+export { hobbies, hobbiesElement };
