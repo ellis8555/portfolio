@@ -13,4 +13,4 @@ const underConstructionElement = createRouteContainer(
   underConstruction,
   "construction-message"
 );
-export { underConstructionElement };
+export { underConstruction, underConstructionElement };
