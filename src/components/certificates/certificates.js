@@ -47,4 +47,4 @@ const certificates = `
 </div>`;
 
 const certificatesElement = createRouteContainer(certificates, "certificates");
-export { certificatesElement };
+export { certificates, certificatesElement };
