@@ -9,4 +9,4 @@ const index = `<div class="mt-5 px-sm-5">
 </div>`;
 
 const homeElement = createRouteContainer(index, "home");
-export { homeElement };
+export { index, homeElement };
