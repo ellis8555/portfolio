@@ -14,4 +14,4 @@ ${loginFormElement.innerHTML}
 `;
 
 const loginElement = createRouteContainer(login, "login");
-export { loginElement };
+export { login, loginElement };
