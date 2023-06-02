@@ -1,7 +1,7 @@
 import { appendAllElements } from "./routes/appendAllElements";
 import { appendSingleElement } from "./routes/appendSingleElement";
 import { createRouteContainer } from "./routes/createRouteContainer";
-import { setNavBarScrollFade } from "./effects/navbarScrollOpacityChange/navbarScrollOpacityChange";
+import { setNavBarScrollFade } from "./effects/navbar/navbarScrollOpacityChange";
 import { pageStartup } from "./routes/pageStartup";
 import { routeChange } from "./routes/routeChange";
 import {
@@ -42,6 +42,7 @@ import { isOtherLoginFieldValidated } from "./user-input/validation/methods/vali
 import { checkLoginValidation } from "./user-input/validation/methods/validate-helper-methods/checkLoginValidation";
 import { checkPasswordValidation } from "./user-input/validation/methods/validate-helper-methods/checkPasswordValidation";
 import { checkSignupNameValidation } from "./user-input/validation/methods/validate-helper-methods/checkSignupNameValidation";
+import { navbarLayoutOnResize } from "./effects/navbar/navbarLayoutOnResize";
 
 export {
   createRouteContainer,
@@ -83,4 +84,5 @@ export {
   checkLoginValidation,
   checkPasswordValidation,
   checkSignupNameValidation,
+  navbarLayoutOnResize,
 };
