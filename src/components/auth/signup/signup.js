@@ -17,4 +17,4 @@ ${signupFormElement.innerHTML}
 `;
 
 const signupElement = createRouteContainer(signup, "signup");
-export { signupElement };
+export { signup, signupElement };
