@@ -18,4 +18,4 @@ ${gitHubAccount}
 `;
 
 const aboutMeElement = createRouteContainer(aboutMe, "about-me");
-export { aboutMeElement };
+export { aboutMe, aboutMeElement };
