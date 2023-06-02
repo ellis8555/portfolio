@@ -12,4 +12,4 @@ const projects = `
 </div>`;
 
 const projectsElement = createRouteContainer(projects, "projects");
-export { projectsElement };
+export { projects, projectsElement };
