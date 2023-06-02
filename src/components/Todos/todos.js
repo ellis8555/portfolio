@@ -7,4 +7,4 @@ const todos = `
 </div>`;
 
 const todosElement = createRouteContainer(todos, "todos");
-export { todosElement };
+export { todos, todosElement };
