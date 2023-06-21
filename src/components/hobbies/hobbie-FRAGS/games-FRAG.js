@@ -69,7 +69,6 @@ const hobbiesGamesFRAG = `
       </div>
     </div>
   </div>
-</div>
-<h4 class="text-center my-5">-- More to be added --</h4>`;
+</div>`;
 
 export { hobbiesGamesFRAG };
