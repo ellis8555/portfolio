@@ -1,4 +1,4 @@
-import javaIcon from "../../../../images/hobbies/web-dev/javaMed.png";
+import javaIcon from "../../../../images/projects/javaMed.png";
 
 const timeCollision = `
 <div class="row text-center rounded mt-3">
