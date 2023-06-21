@@ -1,4 +1,4 @@
-import wywmLogoIcon from "../../../../images/projects/wywmLogo.jpg";
+import pythonIcon from "../../../../images/projects/pythonMed.png";
 
 const codingKnights = `
 <div class="row text-center rounded mt-3">
@@ -7,7 +7,7 @@ const codingKnights = `
       <div class="row g-0 h-100">
         <div class="col-md-4">
           <img
-            src="${wywmLogoIcon}"
+            src="${pythonIcon}"
             class="img-fluid rounded-start h-100 w-100"
             alt="..."
           />
