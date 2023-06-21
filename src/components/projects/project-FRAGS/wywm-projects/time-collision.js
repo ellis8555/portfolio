@@ -21,12 +21,19 @@ const timeCollision = `
             </p>
               <small class="text-muted"
                 ><a
-                  href="https://github.com/ellis8555/time_collision"
+                  href="https://hub.docker.com/r/ellis8555/docker-realms"
                   class="btn btn-primary"
-                  >Java game source code</a
+                  >Docker Image</a
                 ></small
               >
-            <p class="card-text mt-2">Project details on github readme</p>
+              <small class="text-muted"
+                ><a
+                  href="https://github.com/ellis8555/time_collision"
+                  class="btn btn-primary"
+                  >Source code</a
+                ></small
+              >
+            <p class="card-text mt-2">Pull the docker image and run the image with "docker run -it --rm ellis8555/docker-realms"</p>
           </div>
         </div>
       </div>
