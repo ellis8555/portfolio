@@ -18,6 +18,7 @@ import tailwindIcon from "./tailwind.png";
 import typescriptIcon from "./typescript.png";
 import webpackIcon from "./webpack.png";
 import jestIcon from "./jest.webp";
+import dockerIcon from "./docker.png";
 
 const eachWebdevImage = [
   {
@@ -120,6 +121,11 @@ const eachWebdevImage = [
     imageSrc: jestIcon,
     imageAlt: "jest",
   },
+  {
+    // 20
+    imageSrc: dockerIcon,
+    imageAlt: "docker",
+  },
 ];
 
 export const eachWebdevImageLength = eachWebdevImage.length;
@@ -146,4 +152,5 @@ export {
   webpackIcon,
   eachWebdevImage,
   jestIcon,
+  dockerIcon,
 };
