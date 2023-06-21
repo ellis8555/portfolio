@@ -1,4 +1,4 @@
-import wywmLogoIcon from "../../../../images/projects/wywmLogo.jpg";
+import javaIcon from "../../../../images/hobbies/web-dev/javaMed.png";
 
 const timeCollision = `
 <div class="row text-center rounded mt-3">
@@ -7,7 +7,7 @@ const timeCollision = `
       <div class="row g-0 h-100">
         <div class="col-md-4">
           <img
-            src="${wywmLogoIcon}"
+            src="${javaIcon}"
             class="img-fluid rounded-start h-100 w-100"
             alt="..."
           />
