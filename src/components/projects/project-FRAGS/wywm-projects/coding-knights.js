@@ -21,14 +21,20 @@ const codingKnights = `
             <p class="card-text mb-2">
               Basic python allowing user to perform CRUD operations on objects
             </p>
+            <small class="text-muted">
+            <a
+              href="https://hub.docker.com/r/ellis8555/docker-codingknights"
+              class="btn btn-primary"
+              >Docker Image</a
+            ></small>
+            <small class="text-muted">
+            <a
+              href="https://github.com/ellis8555/WYWM-CodingKnights"
+              class="btn btn-primary"
+              >Source code</a
+            ></small>
             <p class="card-text">
-              <small class="text-muted"
-                ><a
-                  href="https://github.com/ellis8555/WYWM-CodingKnights"
-                  class="btn btn-primary"
-                  >Python project source code</a
-                ></small
-              >
+            Pull the docker image and run the image with "docker run -it --rm ellis8555/docker-codingknights"
             </p>
           </div>
         </div>
