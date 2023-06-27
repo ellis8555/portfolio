@@ -19,12 +19,14 @@ const todosFRAG = `
             <h5 class="card-title">List of things to accomplish</h5>
             <ul class="list-group list-group-flush rounded card-ul-opacity">
               <li class="list-group-item">1. <s>Unit & integration testing</s> (tests written for this)</li>
-              <li class="list-group-item">2. Complete react version of this project</li>
-              <li class="list-group-item">3. Next.js</li>
-              <li class="list-group-item">4. React Native</li>
-              <li class="list-group-item">5. <s>Docker</s> (created docker image for a java project)</li>
-              <li class="list-group-item">6. Java Spring Boot</li>
-              <li class="list-group-item">7. Java backend web service</li>
+              <li class="list-group-item">2. Kubernetes</li>
+              <li class="list-group-item">3. get AWS cloud practioner certified </li>
+              <li class="list-group-item">4. Complete react version of this project</li>
+              <li class="list-group-item">5. Next.js</li>
+              <li class="list-group-item">6. React Native</li>
+              <li class="list-group-item">7. <s>Docker</s> (created docker image for a java project)</li>
+              <li class="list-group-item">8. Java Spring Boot</li>
+              <li class="list-group-item">9. Java backend web service</li>
             </ul>
           </div>
         </div>
