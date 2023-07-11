@@ -18,13 +18,13 @@ const todosFRAG = `
           <div class="card-body">
             <h5 class="card-title">List of things to accomplish</h5>
             <ul class="list-group list-group-flush rounded card-ul-opacity">
-              <li class="list-group-item">1. <s>Unit & integration testing</s> (tests written for this)</li>
-              <li class="list-group-item">2. <s>Kubernetes</s> (junior knowledge achieved)</li>
-              <li class="list-group-item">3. Next.js</li>
-              <li class="list-group-item">4. more devOps (Jenkins, Terraform, Ansible etc)</li>
-              <li class="list-group-item">5. get AWS cloud practioner certified. (get familiar with Azure, Google Cloud, Linode or others)</li>
-              <li class="list-group-item">6. Complete react version of this project</li>
-              <li class="list-group-item">7. React Native</li>
+              <li class="list-group-item">1. <s>Unit & integration testing</s> ( <span class="text-info">tests written for this</span> )</li>
+              <li class="list-group-item">2. <s>Kubernetes</s> ( <span class="text-info">junior knowledge achieved</span>)</li>
+              <li class="list-group-item">3. Next.js ( <span class="text-warning">currently learning</span> )</li>
+              <li class="list-group-item">4. React Native</li>
+              <li class="list-group-item">5. more devOps (Jenkins, Terraform, Ansible etc)</li>
+              <li class="list-group-item">6. get AWS cloud practioner certified. (get familiar with Azure, Google Cloud, Linode or others)</li>
+              <li class="list-group-item">7. Complete react version of this project</li>
               <li class="list-group-item">8. Java Spring Boot</li>
               <li class="list-group-item">9. Java backend web service</li>
               <li class="list-group-item">10. on my radar (.NET, C#, Kotlin)</li>
