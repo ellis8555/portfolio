@@ -20,7 +20,7 @@ const nhl95Project = `
               This will refresh and update live standings and player stats
             </p>           
               <small class="text-muted"
-                ><a href="https://tiny-lokum-ab0acc.netlify.app/" class="btn btn-primary"
+                ><a href="https://nhl95.vercel.app" class="btn btn-primary"
                   >Nhl95</a
                 ></small
               >
