@@ -22,7 +22,7 @@ const getContactMessage = async (e) => {
     userMessage: sanitizeComment(form.elements.comment.value),
   };
 
-  const CONTACT_ENDPOINT = "https://angry-slug-peplum.cyclic.app/contact";
+  const CONTACT_ENDPOINT = "https://bejewelled-bienenstitch-cc5929.netlify.app/contact";
 
   const response = await fetch(CONTACT_ENDPOINT, {
     method: "POST",
