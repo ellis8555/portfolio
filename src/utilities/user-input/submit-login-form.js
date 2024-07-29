@@ -22,7 +22,7 @@ const getLoginFormDetails = async (e) => {
     password: sanitizeComment(form.elements.loginPassword.value),
   };
 
-  const LOGIN_ENDPOINT = "https://bejewelled-bienenstitch-cc5929.netlify.app/user/login";
+  const LOGIN_ENDPOINT = "https://portfolio-backend-tawny.vercel.app/user/login";
 
   const response = await fetch(LOGIN_ENDPOINT, {
     method: "POST",
