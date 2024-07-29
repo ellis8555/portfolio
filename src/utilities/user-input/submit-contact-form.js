@@ -26,7 +26,6 @@ const getContactMessage = async (e) => {
 
   const response = await fetch(CONTACT_ENDPOINT, {
     method: "POST",
-    mode: 'no-cors',
     headers: {
       "Content-Type": "application/json",
     },
